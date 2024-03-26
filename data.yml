@@ -254,13 +254,13 @@ landscape:
             academics:
               - academic:
                 name: Oleg Nikitin
-                profile_url: https://scholar.google.ru/citations?user=XgiByAIAAAAJ&hl=en
+                profile_url: https://scholar.google.ru/citations?user=XgiByAIAAAAJ
                 citations: 135
                 hindex: 4
                 i10index: 2
               - academic:
                 name: Olga Lukyanova
-                profile_url: https://scholar.google.ru/citations?user=9lg8OpcAAAAJ&hl=en
+                profile_url: https://scholar.google.ru/citations?user=9lg8OpcAAAAJ
                 citations: 139
                 hindex: 4
                 i10index: 2
@@ -285,6 +285,58 @@ landscape:
             extra:
               summary_tags: cloud
       - subcategory:
+        name: Lab Equipment & Robotics
+        items:
+          - item:
+            name: Opentrons
+            description: |
+              We make robots for scientists
+              At Opentrons we believe that scientists should be able to focus on their science to accelerate discovery and innovation, and that access to automation is a key tool to facilitate that.
+              Our mission is to democratize access to laboratory robotics.
+              There are currently ten times the number of scientists to lab robots in the world. When we're done, that ratio will be flipped, and there will be ten times the number of lab robots to scientists.
+            homepage_url: https://opentrons.com
+            logo: opentrons.svg
+            crunchbase: https://www.crunchbase.com/organization/opentrons
+            locations:
+              - location:
+                country: USA
+            extra:
+              summary_tags: automation, robotics
+          - item:
+            name: OpenUC2
+            description: We provide composable lab equipment openUC2 optical toolboxes.
+            homepage_url: https://openuc2.com/team/#overview
+            logo: openuc2.svg
+            academics:
+              - academic:
+                name: Benedict Diederich
+                profile_url: https://scholar.google.de/citations?user=TvSHTGkAAAAJ
+                citations: 411
+                hindex: 10
+                i10index: 11
+              - academic:
+                name: René Lachmann
+                profile_url: https://scholar.google.de/citations?user=kNlEu-sAAAAJ
+                citations: 170
+                hindex: 5
+                i10index: 4
+            locations:
+              - location:
+                country: Germany
+          - item:
+            name: LABmaker
+            description: |
+              LabMaker is a maker and assembly service for OPEN SCIENCE instruments. OPEN SCIENCE initiatives provide part lists or "Bill Of Materials" (BOM) for openly available scientific instruments.
+              LabMaker bridges the gap between the BOM and the ready-to-use instrument for those not wanting to build by themselves.
+            homepage_url: https://www.labmaker.org
+            logo: labmaker.svg
+            locations:
+              - location:
+                city: Berlin
+                country: Germany
+            extra:
+              summary_tags: open-science
+      - subcategory:
         name: Connectomics
         items:
           - item:
@@ -301,25 +353,25 @@ landscape:
             academics:
               - academic:
                 name: Thomas Macrina
-                profile_url: https://scholar.google.com/citations?user=94I0duAAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=94I0duAAAAAJ
                 citations: 979
                 hindex: 15
                 i10index: 19
               - academic:
                 name: Kisuk Lee
-                profile_url: https://scholar.google.com/citations?user=NUdCPGkAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=NUdCPGkAAAAJ
                 citations: 2125
                 hindex: 22
                 i10index: 29
               - academic:
                 name: Sergiy Popovych
-                profile_url: https://scholar.google.com/citations?user=SW-oensAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=SW-oensAAAAJ
                 citations: 903
                 hindex: 15
                 i10index: 16
               - academic:
                 name: Tri Minh Nguyen
-                profile_url: https://scholar.google.com/citations?user=AnU408sAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=AnU408sAAAAJ
                 citations: 1003
                 hindex: 14
                 i10index: 15
@@ -367,7 +419,7 @@ landscape:
             academics:
               - academic:
                 name: Reid Harrison
-                profile_url: https://scholar.google.com/citations?user=rCKlicEAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=rCKlicEAAAAJ
                 citations: 8463
                 hindex: 37
                 i10index: 70
@@ -390,13 +442,37 @@ landscape:
             academics:
               - academic:
                 name: Paul J. Tadrous
-                profile_url: https://scholar.google.com/citations?user=Fb7jTjoAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=Fb7jTjoAAAAJ
                 citations: 2525
                 hindex: 21
                 i10index: 24
             locations:
               - location:
                 country: UK
+          - item:
+            name: Oxford Instruments
+            description: |
+              Oxford Instruments is an international corporation that produces technology for a variety of fields, including healthcare and agriculture.
+              Among other things, it creates electron-microscopy, camera, x-ray, other kinds of microscopy, and imaging technology.
+            homepage_url: https://www.oxinst.com
+            logo: oxinst.svg
+            crunchbase: https://www.crunchbase.com/organization/oxford-instruments
+            locations:
+              - location:
+                country: UK
+            extra:
+              summary_tags: imaris
+          - item:
+            name: MBF bioscience
+            description: MBF Bioscience is a biotechnology firm that provides imaging software for stereology, neuron reconstruction, and image analysis.
+            homepage_url: https://www.mbfbioscience.com
+            logo: mbf-bioscience.svg
+            crunchbase: https://www.crunchbase.com/organization/mbf-bioscience
+            locations:
+              - location:
+                country: USA
+            extra:
+              summary_tags: mbf-bioscience
   - category:
     name: Organizations
     subcategories:
@@ -570,19 +646,19 @@ landscape:
             academics:
               - academic:
                 name: André Maia Chagas
-                profile_url: https://scholar.google.com/citations?user=CGSly_wAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=CGSly_wAAAAJ
                 hindex: 10
                 citations: 1002
                 i10index: 11
               - academic:
                 name: Matias Andina
-                profile_url: https://scholar.google.com/citations?user=PnTVdPAAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=PnTVdPAAAAAJ
                 citations: 187
                 hindex: 2
                 i10index: 1
               - academic:
                 name: Cecilia Thomsett Herbert
-                profile_url: https://scholar.google.com/citations?user=wAjdb0cAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=wAjdb0cAAAAJ
                 citations: 9
                 hindex: 2
                 i10index: 0
@@ -593,6 +669,112 @@ landscape:
                 country: USA
             extra:
               summary_tags: software, tooling, university-of-sussex, mit
+          - item:
+            name: Neurodesk
+            description: |
+              Neurodesk provides a containerised data analysis environment to facilitate reproducible analysis of neuroimaging data.
+              At Neurodesk, we believe reproducibility should be a fundamental principle underlying neuroscientific data analysis.
+            homepage_url: https://neurodesk.org
+            github_org_url: https://github.com/NeuroDesk
+            logo: neurodesk.svg
+            academics:
+              - academic:
+                name: Steffen Bollmann
+                profile_url: https://scholar.google.com/citations?user=HmXlj24AAAAJ
+                citations: 1400
+                hindex: 17
+                i10index: 26
+              - academic:
+                name: Angela Renton
+                profile_url: https://scholar.google.com/citations?user=6pC19kMAAAAJ&oi=ao
+                citations: 89
+                hindex: 5
+                i10index: 3
+            locations:
+              - location:
+                country: Australia
+            extra:
+              summary_tags: cloud, containers, desktop, tooling, software
+          - item:
+            name: BrainGlobe
+            description: Interoperable Python-based tools for computational neuroanatomy
+            homepage_url: https://brainglobe.info/
+            github_org_url: https://github.com/brainglobe
+            logo: brainglobe.svg
+            academics:
+              - academic:
+                name: Adam L Tyson
+                profile_url: https://scholar.google.co.uk/citations?user=YhF8QhoAAAAJ
+                citations: 489
+                hindex: 11
+                i10index: 11
+              - academic:
+                name: Troy Margrie
+                profile_url: https://scholar.google.co.uk/citations?user=tdeQdPkAAAAJ
+                citations: 7003
+                hindex: 35
+                i10index: 53
+              - academic:
+                name: Tiago Branco
+                profile_url: https://scholar.google.com/citations?user=PJ7kIFMAAAAJ
+                citations: 5304
+                hindex: 33
+                i10index: 40
+              - academic:
+                name: Ruben Portugues
+                profile_url: https://scholar.google.de/citations?user=gDcRyKsAAAAJ
+                citations: 5676
+                hindex: 29
+                i10index: 40
+              - academic:
+                name: Federico Claudi
+                profile_url: https://scholar.google.co.uk/citations?user=8eDOmAQAAAAJ
+                citations: 308
+                hindex: 7
+                i10index: 7
+              - academic:
+                name: Luigi Petrucco
+                profile_url: https://scholar.google.it/citations?user=FQDeRWQAAAAJ
+                citations: 333
+                hindex: 8
+                i10index: 8
+              - academic:
+                name: Alessandro Felder
+                profile_url: https://scholar.google.com/citations?user=uEuxs7sAAAAJ
+                citations: 212
+                hindex: 5
+                i10index: 4
+            locations:
+              - location:
+                country: UK
+            extra:
+              summary_tags: software, tooling, ucl, sainsbury, gatsby
+          - item:
+            name: OME
+            description: OME is a consortium of universities, research labs, industry and developers producing open-source software and format standards for microscopy data.
+            homepage_url: https://www.openmicroscopy.org
+            github_org_url: https://github.com/openmicroscopy
+            logo: ome.svg
+            academics:
+              - academic:
+                name: Jason Swedlow
+                profile_url: https://scholar.google.com/citations?user=wlaX20IAAAAJ&hl=en
+                citations: 16441
+                hindex: 63
+                i10index: 109
+              - academic:
+                name: Alvis Brazma
+                profile_url: https://scholar.google.com/citations?user=4QnYN1sAAAAJ&hl=en
+                citations: 64229
+                hindex: 81
+                i10index: 178
+            locations:
+              - location:
+                country: USA
+              - location:
+                country: UK
+            extra:
+              summary_tags: microscopy
       - subcategory:
         name: Societies
         items:
@@ -602,7 +784,7 @@ landscape:
               The International Brain Research Organization (IBRO) is the global association of neuroscience societies established in 1961 that aims to promote and support neuroscience around the world 
               through training, education, research, outreach and engagement activities, and the publication of two journals, Neuroscience and IBRO Neuroscience Reports.
               More than 90 international, regional and national scientific members constitute IBRO's Governing Council which, together with the IBRO Executive Committee and five Regional Committees, 
-              address the needs and advance the work of individual scientists and research communities everywhere.
+              address the needs and advance the work of individual scientists and research communities everywhere. 
               In addition, IBRO has partnerships with like-minded scientific organizations to identify priorities and help bridge gaps in knowledge, investment and resources in the field of brain research.
             homepage_url: https://ibro.org/
             logo: international-brain-research-organization.svg
@@ -686,7 +868,7 @@ landscape:
             academics:
               - academic:
                 name: Loic A. Royer
-                profile_url: https://scholar.google.com/citations?user=qNDoTVcAAAAJ&hl=en&oi=ao
+                profile_url: https://scholar.google.com/citations?user=qNDoTVcAAAAJ&oi=ao
                 hindex: 27
                 citations: 6953
                 i10index: 36
@@ -713,7 +895,7 @@ landscape:
             academics:
               - academic:
                 name: Konrad Kording
-                profile_url: https://scholar.google.com/citations?user=MiFqJGcAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=MiFqJGcAAAAJ
                 hindex: 77
                 citations: 25763
                 i10index: 239
@@ -735,25 +917,25 @@ landscape:
             academics:
               - academic:
                 name: Henry Markram
-                profile_url: https://scholar.google.com/citations?user=W3lyJF8AAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=W3lyJF8AAAAJ
                 hindex: 94
                 citations: 51941
                 i10index: 201
               - academic:
                 name: Marc-Oliver Gewaltig
-                profile_url: https://scholar.google.com/citations?user=Dy-lNyAAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=Dy-lNyAAAAAJ
                 hindex: 25
                 citations: 4989
                 i10index: 40
               - academic:
                 name: Michael W. Reimann
-                profile_url: https://scholar.google.com/citations?user=uzjd33kAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=uzjd33kAAAAJ
                 hindex: 16
                 citations: 2899
                 i10index: 19
               - academic:
                 name: Werner Van Geit
-                profile_url: https://scholar.google.com/citations?user=5sr9FJgAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=5sr9FJgAAAAJ
                 hindex: 15
                 citations: 2505
                 i10index: 17
@@ -762,7 +944,7 @@ landscape:
                 city: Geneva
                 country: Switzerland
             extra:
-              summary_tags: simulation, stars-2000
+              summary_tags: simulation, stars-2000, blue-brain
       - subcategory:
         name: University of Zurich
         items:
@@ -779,13 +961,13 @@ landscape:
             academics:
               - academic:
                 name: Esther Stoeckli
-                profile_url: https://scholar.google.ch/citations?user=Lp_wEokAAAAJ&hl=de
+                profile_url: https://scholar.google.ch/citations?user=Lp_wEokAAAAJ
                 hindex: 46
                 i10index: 79
                 citations: 8531
               - academic:
                 name: Alexandre Dumoulin
-                profile_url: https://scholar.google.com/citations?user=DQ0WUoUAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=DQ0WUoUAAAAJ
                 hindex: 7
                 i10index: 5
                 citations: 116
@@ -827,7 +1009,7 @@ landscape:
             academics:
               - academic:
                 name: Sebastian Seung
-                profile_url: https://scholar.google.com/citations?user=BD8llAEAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=BD8llAEAAAAJ
                 hindex: 81
                 citations: 60280
                 i10index: 166
@@ -854,7 +1036,7 @@ landscape:
             academics:
               - academic:
                 name: Yong Jeong
-                profile_url: https://scholar.google.com/citations?user=zsVfg6sAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=zsVfg6sAAAAJ
                 hindex: 40
                 citations: 6254
                 i10index: 85
@@ -872,7 +1054,7 @@ landscape:
             academics:
               - academic:
                 name: Eunjoon Kim
-                profile_url: https://scholar.google.com/citations?user=fgt4fvkAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=fgt4fvkAAAAJ
                 hindex: 81
                 citations: 27907
                 i10index: 167
@@ -895,7 +1077,7 @@ landscape:
             academics:
               - academic:
                 name: Jaeseung Jeong
-                profile_url: https://scholar.google.com/citations?user=ZfNxZ3sAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=ZfNxZ3sAAAAJ
                 hindex: 38
                 citations: 7222
                 i10index: 85
@@ -963,7 +1145,7 @@ landscape:
             academics:
               - academic:
                 name: Seung-Hee Lee
-                profile_url: https://scholar.google.com/citations?user=ifoan_MAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=ifoan_MAAAAJ
                 hindex: 24
                 citations: 4225
                 i10index: 35
@@ -995,7 +1177,7 @@ landscape:
             academics:
               - academic:
                 name: Min Whan Jung
-                profile_url: https://scholar.google.co.kr/citations?user=Yb3-08YAAAAJ&hl=en
+                profile_url: https://scholar.google.co.kr/citations?user=Yb3-08YAAAAJ
                 hindex: 50
                 citations: 11614
                 i10index: 96
@@ -1014,7 +1196,7 @@ landscape:
             academics:
               - academic:
                 name: Pann-Ghill Suh
-                profile_url: https://scholar.google.co.kr/citations?user=ih5KsPkAAAAJ&hl=ko
+                profile_url: https://scholar.google.co.kr/citations?user=ih5KsPkAAAAJ
                 hindex: 82
                 citations: 24218
                 i10index: 315
@@ -1034,7 +1216,7 @@ landscape:
             academics:
               - academic:
                 name: Ruben Portugues
-                profile_url: https://scholar.google.de/citations?user=gDcRyKsAAAAJ&hl=en
+                profile_url: https://scholar.google.de/citations?user=gDcRyKsAAAAJ
                 hindex: 29
                 citations: 5676
                 i10index: 40
@@ -1061,7 +1243,7 @@ landscape:
             academics:
               - academic:
                 name: Wolf Singer
-                profile_url: https://scholar.google.com/citations?user=Ho8cFO8AAAAJ&hl=en&oi=ao
+                profile_url: https://scholar.google.com/citations?user=Ho8cFO8AAAAJ&oi=ao
                 hindex: 148
                 citations: 104519
                 i10index: 513
@@ -1115,7 +1297,7 @@ landscape:
             academics:
               - academic:
                 name: Hermann Cuntz
-                profile_url: https://scholar.google.nl/citations?user=9g7Uj-MAAAAJ&hl=en&oi=ao
+                profile_url: https://scholar.google.nl/citations?user=9g7Uj-MAAAAJ&oi=ao
                 hindex: 25
                 citations: 2092
                 i10index: 33
@@ -1143,13 +1325,13 @@ landscape:
             academics:
               - academic:
                 name: Marieke Scholvinck
-                profile_url: https://scholar.google.de/citations?user=N2MfHR8AAAAJ&hl=en
+                profile_url: https://scholar.google.de/citations?user=N2MfHR8AAAAJ
                 hindex: 18
                 citations: 3419
                 i10index: 23
               - academic:
                 name: Martha Nari Havenith
-                profile_url: https://scholar.google.com/citations?user=EY_4zioAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=EY_4zioAAAAJ
                 hindex: 11
                 citations: 778
                 i10index: 10
@@ -1174,7 +1356,7 @@ landscape:
             academics:
               - academic:
                 name: Jean Laurens
-                profile_url: https://scholar.google.com/citations?user=4dentLsAAAAJ&hl=de
+                profile_url: https://scholar.google.com/citations?user=4dentLsAAAAJ
                 hindex: 19
                 citations: 1629
                 i10index: 32
@@ -1198,7 +1380,7 @@ landscape:
             academics:
               - academic:
                 name: Rosanne Rademaker
-                profile_url: https://scholar.google.com/citations?user=KP28dO8AAAAJ&hl=en&oi=ao
+                profile_url: https://scholar.google.com/citations?user=KP28dO8AAAAJ&oi=ao
                 hindex: 14
                 citations: 1137
                 i10index: 16
@@ -1227,7 +1409,7 @@ landscape:
             academics:
               - academic:
                 name: Helene Schmidt
-                profile_url: https://scholar.google.de/citations?user=YWft174AAAAJ&hl=en
+                profile_url: https://scholar.google.de/citations?user=YWft174AAAAJ
                 hindex: 6
                 citations: 572
                 i10index: 6
@@ -1260,7 +1442,7 @@ landscape:
             academics:
               - academic:
                 name: Martin Vinck
-                profile_url: https://scholar.google.de/citations?user=2DB-CR8AAAAJ&hl=de&oi=ao
+                profile_url: https://scholar.google.de/citations?user=2DB-CR8AAAAJ&oi=ao
                 hindex: 39
                 citations: 7138
                 i10index: 55
@@ -1284,7 +1466,7 @@ landscape:
             academics:
               - academic:
                 name: Roger Levy
-                profile_url: https://scholar.google.com/citations?user=i86O0SAAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=i86O0SAAAAAJ
                 hindex: 52
                 citations: 23780
                 i10index: 123
@@ -1331,7 +1513,7 @@ landscape:
             academics:
               - academic:
                 name: Hashim M Al-Hashimi
-                profile_url: https://scholar.google.com/citations?user=WpE2xEcAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=WpE2xEcAAAAJ
                 hindex: 64
                 citations: 11812
                 i10index: 152
@@ -1349,7 +1531,7 @@ landscape:
             academics:
               - academic:
                 name: Richard Axel
-                profile_url: https://scholar.google.com/citations?user=WpE2xEcAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=WpE2xEcAAAAJ
                 hindex: 92
                 citations: 44676
             locations:
@@ -1367,7 +1549,7 @@ landscape:
             academics:
               - academic:
                 name: Andrea Califano
-                profile_url: https://scholar.google.com/citations?user=NxBuRgcAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=NxBuRgcAAAAJ
                 hindex: 91
                 citations: 44607
                 i10index: 222
@@ -1385,7 +1567,7 @@ landscape:
             academics:
               - academic:
                 name: Joachim Frank
-                profile_url: https://scholar.google.com/citations?user=a7LHl00AAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=a7LHl00AAAAJ
                 hindex: 119
                 citations: 51901
                 i10index: 384
@@ -1403,7 +1585,7 @@ landscape:
             academics:
               - academic:
                 name: Oliver Hobert
-                profile_url: https://scholar.google.com/citations?user=BJ1TE4AAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=BJ1TE4AAAAAJ
                 hindex: 86
                 citations: 25730
                 i10index: 189
@@ -1421,7 +1603,7 @@ landscape:
             academics:
               - academic:
                 name: Alexander Sobolevsky
-                profile_url: https://scholar.google.com/citations?user=Gsf2Q_8AAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=Gsf2Q_8AAAAJ
                 hindex: 36
                 citations: 6269
                 i10index: 62
@@ -1439,7 +1621,7 @@ landscape:
             academics:
               - academic:
                 name: Chaolin Zhang
-                profile_url: https://scholar.google.com/citations?user=hWYleB8AAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=hWYleB8AAAAJ
                 hindex: 41
                 citations: 14481
                 i10index: 53
@@ -1465,7 +1647,7 @@ landscape:
             academics:
               - academic:
                 name: Tomoki Fukai
-                profile_url: https://scholar.google.com/citations?user=iO7jHc4AAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=iO7jHc4AAAAJ
                 hindex: 46
                 citations: 6324
                 i10index: 116
@@ -1494,7 +1676,7 @@ landscape:
             academics:
               - academic:
                 name: Gerald Pao
-                profile_url: https://scholar.google.com/citations?user=b6f0WSQAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=b6f0WSQAAAAJ
                 hindex: 22
                 citations: 2935
                 i10index: 25
@@ -1521,7 +1703,7 @@ landscape:
             academics:
               - academic:
                 name: Bernd Kuhn
-                profile_url: https://scholar.google.de/citations?user=ab-HnakAAAAJ&hl=en
+                profile_url: https://scholar.google.de/citations?user=ab-HnakAAAAJ
                 hindex: 18
                 citations: 1475
                 i10index: 23
@@ -1544,7 +1726,7 @@ landscape:
             academics:
               - academic:
                 name: Kazumasa Tanaka
-                profile_url: https://scholar.google.com/citations?user=QC_chB0AAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=QC_chB0AAAAJ
                 citations: 1863
                 hindex: 13
                 i10index: 15
@@ -1565,7 +1747,7 @@ landscape:
             academics:
               - academic:
                 name: Kenji Doya
-                profile_url: https://scholar.google.com/citations?user=SHufeXQAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=SHufeXQAAAAJ
                 citations: 24809
                 hindex: 67
                 i10index: 172
@@ -1586,7 +1768,7 @@ landscape:
             academics:
               - academic:
                 name: Marco Terenzio
-                profile_url: https://scholar.google.co.il/citations?user=nXQ57fkAAAAJ&hl=en
+                profile_url: https://scholar.google.co.il/citations?user=nXQ57fkAAAAJ
                 citations: 1352
                 hindex: 16
                 i10index: 16
@@ -1628,7 +1810,7 @@ landscape:
             academics:
               - academic:
                 name: Tom Froese
-                profile_url: https://scholar.google.com.mx/citations?user=uKd8pmUAAAAJ&hl=en
+                profile_url: https://scholar.google.com.mx/citations?user=uKd8pmUAAAAJ
                 citations: 5491
                 hindex: 40
                 i10index: 94
@@ -1650,7 +1832,7 @@ landscape:
             academics:
               - academic:
                 name: Tomoyuki Takahashi
-                profile_url: https://scholar.google.co.jp/citations?user=t3HsDsYAAAAJ&hl=ja
+                profile_url: https://scholar.google.co.jp/citations?user=t3HsDsYAAAAJ
                 citations: 20243
                 hindex: 71
                 i10index: 123
@@ -1671,7 +1853,7 @@ landscape:
             academics:
               - academic:
                 name: Gail Tripp
-                profile_url: https://scholar.google.com/citations?user=-WkN5jAAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=-WkN5jAAAAAJ
                 citations: 6007
                 hindex: 33
                 i10index: 51
@@ -1692,7 +1874,7 @@ landscape:
             academics:
               - academic:
                 name: Yoko Yazaki-Sugiyama
-                profile_url: https://scholar.google.com/citations?user=Pez80yIAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=Pez80yIAAAAJ
                 citations: 810
                 hindex: 11
                 i10index: 13
@@ -1713,7 +1895,7 @@ landscape:
             academics:
               - academic:
                 name: Jeff Wickens
-                profile_url: https://scholar.google.com/citations?user=x2yg1WQAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=x2yg1WQAAAAJ
                 citations: 11485
                 hindex: 48
                 i10index: 89
@@ -1733,7 +1915,7 @@ landscape:
             academics:
               - academic:
                 name: Ichiro Masai
-                profile_url: https://scholar.google.co.jp/citations?user=P8FEcOYAAAAJ&hl=ja
+                profile_url: https://scholar.google.co.jp/citations?user=P8FEcOYAAAAJ
                 citations: 3096
                 hindex: 25
                 i10index: 33
@@ -1758,7 +1940,7 @@ landscape:
             academics:
               - academic:
                 name: Jun Tani
-                profile_url: https://scholar.google.com/citations?user=9tkWMqgAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=9tkWMqgAAAAJ
                 citations: 7460
                 hindex: 41
                 i10index: 126
@@ -1779,7 +1961,7 @@ landscape:
             academics:
               - academic:
                 name: Akihiro Kusumi
-                profile_url: https://scholar.google.com/citations?user=bK1njdwAAAAJ&hl=ja
+                profile_url: https://scholar.google.com/citations?user=bK1njdwAAAAJ
                 citations: 22560
                 hindex: 72
                 i10index: 129
@@ -1808,13 +1990,13 @@ landscape:
             academics:
               - academic:
                 name: Zhang Suchun
-                profile_url: https://scholar.google.ca/citations?user=YTQT5RgAAAAJ&hl=en
+                profile_url: https://scholar.google.ca/citations?user=YTQT5RgAAAAJ
                 hindex: 71
                 citations: 23018
                 i10index: 132
               - academic:
                 name: Hongyan Wang
-                profile_url: https://scholar.google.com/citations?user=ZY-eyuwAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=ZY-eyuwAAAAJ
                 hindex: 30
                 citations: 3554
                 i10index: 46
@@ -1836,25 +2018,25 @@ landscape:
             academics:
               - academic:
                 name: Miguel Maravall
-                profile_url: https://scholar.google.com/citations?user=lRZiOnAAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=lRZiOnAAAAAJ
                 citations: 2614
                 hindex: 21
                 i10index: 24
               - academic:
                 name: Chris Bird
-                profile_url: https://scholar.google.co.uk/citations?user=smxv3nIAAAAJ&hl=en
+                profile_url: https://scholar.google.co.uk/citations?user=smxv3nIAAAAJ
                 citations: 5284
                 hindex: 29
                 i10index: 39
               - academic:
                 name: André Maia Chagas
-                profile_url: https://scholar.google.com/citations?user=CGSly_wAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=CGSly_wAAAAJ
                 citations: 1002
                 hindex: 10
                 i10index: 11
               - academic:
                 name: Chris Racey
-                profile_url: https://scholar.google.com/citations?user=FsOJfEYAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=FsOJfEYAAAAJ
                 citations: 422
                 hindex: 7
                 i10index: 7
@@ -1887,7 +2069,7 @@ landscape:
             academics:
               - academic:
                 name: Vinod Menon
-                profile_url: https://scholar.google.com/citations?user=QzqctJgAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=QzqctJgAAAAJ
                 hindex: 125
                 citations: 90821
                 i10index: 243
@@ -1957,7 +2139,7 @@ landscape:
             academics:
               - academic:
                 name: Andrew Huberman
-                profile_url: https://scholar.google.com/citations?user=CoADxCwAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=CoADxCwAAAAJ
                 hindex: 42
                 citations: 11641
                 i10index: 54
@@ -1981,7 +2163,7 @@ landscape:
             academics:
               - academic:
                 name: Steven T. Piantadosi
-                profile_url: https://scholar.google.com/citations?user=zykJTC4AAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=zykJTC4AAAAJ
                 hindex: 41
                 citations: 9022
                 i10index: 80
@@ -2001,7 +2183,7 @@ landscape:
             academics:
               - academic:
                 name: Emily Averill Cooper
-                profile_url: https://scholar.google.com/citations?user=6Wo3XX4AAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=6Wo3XX4AAAAJ
                 hindex: 22
                 citations: 1741
                 i10index: 28
@@ -2021,7 +2203,7 @@ landscape:
             academics:
               - academic:
                 name: Jack Gallant
-                profile_url: https://scholar.google.com/citations?user=nSZG-vcAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=nSZG-vcAAAAJ
                 hindex: 57
                 citations: 20864
                 i10index: 77
@@ -2046,7 +2228,7 @@ landscape:
             academics:
               - academic:
                 name: Frederic Theunissen
-                profile_url: https://scholar.google.com/citations?user=0gyS3z0AAAAJ&hl=fr
+                profile_url: https://scholar.google.com/citations?user=0gyS3z0AAAAJ
                 hindex: 48
                 citations: 11199
                 i10index: 69
@@ -2071,7 +2253,7 @@ landscape:
             academics:
               - academic:
                 name: Kristofer Bouchard
-                profile_url: https://scholar.google.com/citations?user=mDvGOLkAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=mDvGOLkAAAAJ
                 hindex: 21
                 citations: 2173
                 i10index: 34
@@ -2112,7 +2294,7 @@ landscape:
             academics:
               - academic:
                 name: ZHAO Zhengtuo
-                profile_url: https://scholar.google.com/citations?user=2iEqeocAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=2iEqeocAAAAJ
                 hindex: 11
                 i10index: 12
                 citations: 994
@@ -2126,7 +2308,7 @@ landscape:
     name: Hardware
     subcategories:
       - subcategory:
-        name: Sensors
+        name: Sensors and Electrophysiology
         items:
           - item:
             name: Neuropixels
@@ -2142,6 +2324,182 @@ landscape:
                 country: USA
             extra:
               summary_tags: allen-institute, neuropixels, ucl, hhmi
+          - item:
+            name: Backyard Brains
+            description: |
+              Our products all have a focus on neuroscience, but have expanded into multiple STEM research fields.
+              Our Neuron SpikerBox kits record directly from neurons in invertebrates.
+              Our Human Physiology kits enable you to record from the brain's electrical activity from motor units an muscular contractions (EMG), from the heart (EKG), and even from the whole brain (EEG).
+              Our neuroengineering devices let you use your nervous system to control computers and robotics.
+              We even have kits that reveal the secrets of plant signalling and behavior, proving that the action potential isn't unique to nervous systems! All of our products are accompanied with Lesson Plans and Experiments to make learning (and teaching) neuroscience a breeze.
+            homepage_url: https://backyardbrains.com/
+            logo: backyard-brains.svg
+            github_org_url: https://github.com/BackyardBrains
+            academics:
+              - academic:
+                name: Greg Gage
+                profile_url: https://scholar.google.com/citations?user=Go7O96oAAAAJ
+                hindex: 15
+                citations: 2412
+                i10index: 17
+              - academic:
+                name: Brian Tracy
+                profile_url: https://scholar.google.com/citations?user=NMhIoVMAAAAJ
+                hindex: 28
+                citations: 5424
+                i10index: 44
+            locations:
+              - location:
+                country: USA
+            extra:
+              summary_tags: hardware, education, eeg
+          - item:
+            name: Open Ephys
+            description: We have made it possible to build an entire extracellular electrophysiology rig from off-the-shelf open-source components.
+            homepage_url: http://open-ephys.org/
+            logo: open-ephys.svg
+            github_org_url: https://github.com/open-ephys
+            academics:
+              - academic:
+                name: Jonathan P. Newman
+                profile_url: https://scholar.google.com/citations?user=Zjv7NDUAAAAJ
+                citations: 640
+                hindex: 13
+                i10index: 14
+              - academic:
+                name: Joshua H. Siegle
+                profile_url: https://scholar.google.com/citations?user=jxKYDrEAAAAJ
+                citations: 5508
+                hindex: 27
+                i10index: 30
+              - academic:
+                name: Jakob Voigts
+                profile_url: https://scholar.google.com/citations?user=mddoaI0AAAAJ
+                citations: 1276
+                hindex: 13
+                i10index: 15
+              - academic:
+                name: Matthew A. Wilson
+                profile_url: https://scholar.google.com/citations?user=OAjQDMwAAAAJ
+                citations: 52115
+                hindex: 74
+                i10index: 140
+            locations:
+              - location:
+                city: Atlanta
+                country: USA
+              - location:
+                city: Lisbon
+                country: Portugal
+            extra:
+              summary_tags: hardware, electrophysiology, open-source, tools, allen-institute, mit, brain-initiative, nih
+      - subcategory:
+        name: Microscopy and Imaging
+        items:
+          - item:
+            name: pyPhotometry
+            description: system of open source hardware and software for neuroscience fiber photometry data acquisition, consisting of an acquisition board and graphical user interface.
+            homepage_url: https://pyphotometry.readthedocs.io/en/latest/
+            repo_url: https://github.com/pyPhotometry/code
+            logo: pyphotometry.svg
+            academics:
+              - academic:
+                name: Thomas Akam
+                profile_url: https://scholar.google.com/citations?user=b809FRsAAAAJ
+                citations: 1432
+                hindex: 16
+                i10index: 17
+            locations:
+              - location:
+                country: UK
+            extra:
+              summary_tags: oxford
+          - item:
+            name: UC2
+            description: UC2 is a general-purpose modular framework for making interactive (electro)-optical projects.
+            homepage_url: https://github.com/openUC2/UC2-GIT
+            repo_url: https://github.com/openUC2/UC2-GIT
+            logo: uc2.svg
+            academics:
+              - academic:
+                name: Benedict Diederich
+                profile_url: https://scholar.google.de/citations?user=TvSHTGkAAAAJ
+                citations: 411
+                hindex: 10
+                i10index: 11
+              - academic:
+                name: René Lachmann
+                profile_url: https://scholar.google.de/citations?user=kNlEu-sAAAAJ
+                citations: 170
+                hindex: 5
+                i10index: 4
+            locations:
+              - location:
+                country:
+            extra:
+              summary_tags: germany, open-uc2
+          - item:
+            name: PUMA
+            description: |
+              PUMA is 3D printed open source portable modular microscope with augmented reality, fluorescence, phase contrast, epi-illumination, epi- and trans-polarisation and other features.
+              You can either build it fully DIY or purchase the basic scope ready made and upgrade it as required (see below for details).
+              It uses professional quality optics including the option of full Kohler illumination and oil-immersion, and has some very advanced features not usually found on even the most expensive commercially available microscopes.
+              This includes a computer-controlled and programmable TFT-screen-based Spatial Light Modulator for optical Fourier filtration allowing for optimised / dynamic / adaptive apertures.
+              Also, unique to any 3D printed microscope to date, an augmented reality projector system - which is also programmable.
+              Some advanced applications you can do with these are AI microscopy, specimen-directed aperture optimisation, digital measurements, 3D tomography, Fourier ptychography, Schlieren phase contrast and more.
+              The system is fully customisable - the original FreeCAD source files are all available on the GitHub page so you can customise the scope to meed your individual project needs.
+              The PUMA system is also peer reviewed and published in the Journal of Microscopy(https://onlinelibrary.wiley.com/doi/10.1111/jmi.13043) so you can easily reference it if you use a PUMA system for your own research.
+            homepage_url: https://github.com/TadPath/PUMA
+            repo_url: https://github.com/TadPath/PUMA
+            logo: puma-3d.svg
+            academics:
+              - academic:
+                name: Paul J. Tadrous
+                profile_url: https://scholar.google.com/citations?user=Fb7jTjoAAAAJ
+                citations: 2525
+                hindex: 21
+                i10index: 24
+            locations:
+              - location:
+                country: UK
+            extra:
+              summary_tags: microscopy, 3d-printed
+          - item:
+            name: nTC(DBO)-Scope
+            description: An open source and ultra-low-cost design for large 3D field of view 2-photon microscopy.
+            homepage_url: https://github.com/BadenLab/nTCscope
+            repo_url: https://github.com/BadenLab/nTCscope
+            logo: baden-lab.svg
+            academics:
+              - academic:
+                name: Filip Janiak
+                profile_url: https://scholar.google.pl/citations?user=_ltvaeYAAAAJ
+                citations: 320
+                hindex: 12
+                i10index: 15
+            locations:
+              - location:
+                country: UK
+            extra:
+              summary_tags: microscopy, sussex, baden-lab
+          - item:
+            name: LED-Zappelin
+            description: An open source and versatile LED controller for arbitrary spectrum visual stimulation and optogenetics during 2-photon imaging.
+            homepage_url: https://github.com/BadenLab/LED-Zappelin
+            repo_url: https://github.com/BadenLab/LED-Zappelin
+            logo: led-zappelin.svg
+            academics:
+              - academic:
+                name: André Maia Chagas
+                profile_url: https://scholar.google.com/citations?user=CGSly_wAAAAJ
+                citations: 1002
+                hindex: 10
+                i10index: 11
+            locations:
+              - location:
+                country: UK
+            extra:
+              summary_tags: microscopy, sussex, baden-lab
           - item:
             name: "DaXi: High-Resolution, Large Imaging Volume, and Multi-View Single Objective Light-Sheet Microscope"
             description: |
@@ -2164,74 +2522,24 @@ landscape:
             extra:
               summary_tags: chan-zuckerberg-foundation, royer-lab, microscope
           - item:
-            name: Backyard Brains
+            name: MicroscoPy
             description: |
-              Our products all have a focus on neuroscience, but have expanded into multiple STEM research fields.
-              Our Neuron SpikerBox kits record directly from neurons in invertebrates.
-              Our Human Physiology kits enable you to record from the brain's electrical activity from motor units an muscular contractions (EMG), from the heart (EKG), and even from the whole brain (EEG).
-              Our neuroengineering devices let you use your nervous system to control computers and robotics.
-              We even have kits that reveal the secrets of plant signalling and behavior, proving that the action potential isn't unique to nervous systems! All of our products are accompanied with Lesson Plans and Experiments to make learning (and teaching) neuroscience a breeze.
-            homepage_url: https://backyardbrains.com/
-            logo: backyard-brains.svg
-            github_org_url: https://github.com/BackyardBrains
+              https://github.com/IBM/MicroscoPy
+            homepage_url: https://github.com/IBM/MicroscoPy
+            repo_url: https://github.com/IBM/MicroscoPy
+            logo: microsco-py.svg
             academics:
-              - academic:
-                name: Greg Gage
-                profile_url: https://scholar.google.com/citations?user=Go7O96oAAAAJ&hl=en
-                hindex: 15
-                citations: 2412
-                i10index: 17
-              - academic:
-                name: Brian Tracy
-                profile_url: https://scholar.google.com/citations?user=NMhIoVMAAAAJ&hl=en
-                hindex: 28
-                citations: 5424
-                i10index: 44
+              - item:
+                name: Yuksel Temiz
+                profile_url: https://scholar.google.com/citations?user=jo4NxswAAAAJ
+                citations: 1525
+                hindex: 18
+                i10index: 31
             locations:
               - location:
-                country: USA
+                country: Switzerland
             extra:
-              summary_tags: hardware, education, eeg
-          - item:
-            name: Open Ephys
-            description: We have made it possible to build an entire extracellular electrophysiology rig from off-the-shelf open-source components.
-            homepage_url: http://open-ephys.org/
-            logo: open-ephys.svg
-            github_org_url: https://github.com/open-ephys
-            academics:
-              - academic:
-                name: Jonathan P. Newman
-                profile_url: https://scholar.google.com/citations?user=Zjv7NDUAAAAJ&hl=en
-                citations: 640
-                hindex: 13
-                i10index: 14
-              - academic:
-                name: Joshua H. Siegle
-                profile_url: https://scholar.google.com/citations?user=jxKYDrEAAAAJ&hl=en
-                citations: 5508
-                hindex: 27
-                i10index: 30
-              - academic:
-                name: Jakob Voigts
-                profile_url: https://scholar.google.com/citations?user=mddoaI0AAAAJ&hl=en
-                citations: 1276
-                hindex: 13
-                i10index: 15
-              - academic:
-                name: Matthew A. Wilson
-                profile_url: https://scholar.google.com/citations?user=OAjQDMwAAAAJ&hl=en
-                citations: 52115
-                hindex: 74
-                i10index: 140
-            locations:
-              - location:
-                city: Atlanta
-                country: USA
-              - location:
-                city: Lisbon
-                country: Portugal
-            extra:
-              summary_tags: hardware, electrophysiology, open-source, tools, allen-institute, mit, brain-initiative, nih
+              summary_tags: ibm, stars-1000, 3d-printed
       - subcategory:
         name: Surgery
         items:
@@ -2270,31 +2578,38 @@ landscape:
             extra:
               summary_tags: chan-zuckerberg-foundation, royer-lab, zebrafish
           - item:
-            name: PUMA
-            description: |
-              PUMA is 3D printed open source portable modular microscope with augmented reality, fluorescence, phase contrast, epi-illumination, epi- and trans-polarisation and other features.
-              You can either build it fully DIY or purchase the basic scope ready made and upgrade it as required (see below for details).
-              It uses professional quality optics including the option of full Kohler illumination and oil-immersion, and has some very advanced features not usually found on even the most expensive commercially available microscopes.
-              This includes a computer-controlled and programmable TFT-screen-based Spatial Light Modulator for optical Fourier filtration allowing for optimised / dynamic / adaptive apertures.
-              Also, unique to any 3D printed microscope to date, an augmented reality projector system - which is also programmable.
-              Some advanced applications you can do with these are AI microscopy, specimen-directed aperture optimisation, digital measurements, 3D tomography, Fourier ptychography, Schlieren phase contrast and more.
-              The system is fully customisable - the original FreeCAD source files are all available on the GitHub page so you can customise the scope to meed your individual project needs.
-              The PUMA system is also peer reviewed and published in the Journal of Microscopy(https://onlinelibrary.wiley.com/doi/10.1111/jmi.13043) so you can easily reference it if you use a PUMA system for your own research.
-            homepage_url: https://github.com/TadPath/PUMA
-            repo_url: https://github.com/TadPath/PUMA
-            logo: puma-3d.svg
-            academics:
-              - academic:
-                name: Paul J. Tadrous
-                profile_url: https://scholar.google.com/citations?user=Fb7jTjoAAAAJ&hl=en
-                citations: 2525
-                hindex: 21
-                i10index: 24
+            name: FrescoM
+            description: This is an an open-source hardware that allows for automatic high-throughput generation of large amounts of cell biology data.
+            homepage_url: https://github.com/frescolabs/FrescoM
+            repo_url: https://github.com/frescolabs/FrescoM
+            logo: frescom.svg
             locations:
               - location:
                 country: UK
+              - location:
+                country: Russia
+          - item:
+            name: SignalBuddy
+            description: |
+              SignalBuddy is an easy-to-make, easy-to-use signal generator for scientific applications.
+              Making friends is hard, but making SignalBuddy is easy.
+              All you need is an Arduino Uno! SignalBuddy replaces more complicated and (much) more expensive signal generators in laboratory settings where one millisecond resolution is sufficient.
+            homepage_url: https://github.com/richard-warren/SignalBuddy
+            repo_url: https://github.com/richard-warren/SignalBuddy
+            logo: signalbuddy.svg
+            academics:
+              - item:
+                name: Richard Warren
+                profile_url: https://scholar.google.com/citations?hl=en&user=lCyg13UAAAAJ
+                citations: 591
+                hindex: 13
+                i10index: 13
+            locations:
+              - location:
+                city: New York
+                country: USA
             extra:
-              summary_tags: microscopy, 3d-printed
+              summary_tags: meta, columbia-university
   - category:
     name: Datasets
     subcategories:
@@ -2398,6 +2713,54 @@ landscape:
             logo: connectome-db.svg
             extra:
               summary_tags: connectomics, human
+          - item:
+            name: OpenNeuro
+            description: A major free and open platform for validating and sharing BIDS-compliant MRI, PET, MEG, EEG, and iEEG data.
+            homepage_url: https://openneuro.org
+            logo: openneuro.svg
+            locations:
+              - location:
+                country: USA
+            extra:
+              summary_tags: mri, pet, meg, eeg, bids, datalad, nih, brain-initiative, stanford, sqm.io, cophenagen, nsf
+          - item:
+            name: BossDB
+            description: |
+              BossDB is a volumetric database for 3D and 4D neuroscience data, focused on Electron Microscopy and X-ray Micro/Nano Tomography.
+              Store petabytes of high-dimensional data faster and bigger. BossDB currently stores thousands of terabytes of data from all over the world.
+            homepage_url: https://bossdb.org
+            repo_url: https://github.com/jhuapl-boss/boss/
+            logo: bossdb.svg
+            academics:
+              - academic:
+                name: Brock Wester
+                profile_url: https://scholar.google.com/citations?user=Xb9h0MwAAAAJ
+                citations: 1682
+                hindex: 21
+                i10index: 33
+              - academic:
+                name: William R. Gray-Roncal
+                profile_url: https://scholar.google.com/citations?user=54lnkjAAAAAJ
+                citations: 2053
+                hindex: 18
+                i10index: 25
+              - academic:
+                name: Jordan Matelsky
+                profile_url: https://scholar.google.com/citations?user=QgJ7CPUAAAAJ
+                citations: 373
+                hindex: 9
+                i10index: 9
+              - academic:
+                name: Erik Johnson
+                profile_url: https://scholar.google.com/citations?user=1xfrN5kAAAAJ
+                citations: 423
+                hindex: 11
+                i10index: 13
+            locations:
+              - location:
+                country: USA
+            extra:
+              summary_tags: electron-microscopy, 3d, 4d, brain-initiative, aws
       - subcategory:
         name: Transcriptomics
         items:
@@ -2440,6 +2803,31 @@ landscape:
                 country: USA
             extra:
               summary_tags: allen-institute, molecular-toolkit, transcriptomic
+          - item:
+            name: AAV
+            description: |
+              Addgene is a nonprofit plasmid repository.
+              We store and distribute high-quality plasmids from your colleagues.
+            homepage_url: https://datahub.addgene.org/aav/
+            logo: aav-datahub.svg
+            academics:
+              - academic:
+                name: Daniela Bourges-Waldegg
+                profile_url: https://scholar.google.com/citations?user=6-K_5jIAAAAJ
+                citations: 381
+                hindex: 10
+                i10index: 10
+              - academic:
+                name: Eric Perkins
+                profile_url: https://scholar.google.com/citations?user=uuOw_jQAAAAJ
+                citations: 309
+                hindex: 4
+                i10index: 4
+            locations:
+              - location:
+                country: USA
+            extra:
+              summary_tags:
       - subcategory:
         name: Models
         items:
@@ -2502,6 +2890,13 @@ landscape:
             homepage_url: https://github.com/google/neuroglancer
             repo_url: https://github.com/google/neuroglancer
             logo: neuroglancer.svg
+            locations:
+              - location:
+                country: USA
+              - location:
+                country: UK
+              - location:
+                country: Global
             extra:
               summary_tags: connectomics, tissue-slices, google, stars-800
           - item:
@@ -2674,7 +3069,7 @@ landscape:
             academics:
               - academic:
                 name: Luke Hammond
-                profile_url: https://scholar.google.com/citations?user=Kyb0tMQAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=Kyb0tMQAAAAJ
                 citations: 1156
                 hindex: 13
                 i10index: 13
@@ -2695,7 +3090,7 @@ landscape:
             academics:
               - academic:
                 name: Raphael Vallat
-                profile_url: https://scholar.google.fr/citations?user=XH8IG2UAAAAJ&hl=fr
+                profile_url: https://scholar.google.fr/citations?user=XH8IG2UAAAAJ
                 citations: 1822
                 hindex: 15
                 i10index: 15
@@ -2704,6 +3099,296 @@ landscape:
                 country: USA
             extra:
               summary_tags: eeg, sleep, berkeley, matt-walker-lab
+          - item:
+            name: Stalefish
+            description: |
+              Stalefish is a tool for the analysis of 2D brain slice images, allowing the neurobiologist to reconstruct three dimensional gene expression surfaces from ISH slices.
+              The 3D surfaces can then be digitally unwrapped to make 2D expression maps.
+            homepage_url: https://github.com/ABRG-Models/Stalefish
+            repo_url: https://github.com/ABRG-Models/Stalefish
+            logo: stalefish.svg
+            academics:
+              - academic:
+                name: Sebastian James
+                profile_url: https://scholar.google.com/citations?user=q7nbjxgAAAAJ
+                citations: 33
+                hindex: 2
+                i10index: 1
+              - academic:
+                name: Stuart Wilson
+                profile_url: https://scholar.google.com/citations?user=3GjSH5EAAAAJ
+                citations: 9574
+                hindex: 45
+                i10index: 59
+            locations:
+              - location:
+                country: UK
+            extra:
+              summary_tags: slices, sheffield, genetics
+          - item:
+            name: Nilearn
+            description: |
+              Nilearn enables approachable and versatile analyses of brain volumes.
+              It provides statistical and machine-learning tools, with instructive documentation & open community.
+              It supports general linear model (GLM) based analysis and leverages the scikit-learn Python toolbox for multivariate statistics with applications such as predictive modelling, classification, decoding, or connectivity analysis.
+            homepage_url: https://nilearn.github.io
+            repo_url: https://github.com/nilearn/nilearn/
+            logo: nilearn.svg
+            academics:
+              - academic:
+                name: Bertrand Thirion
+                profile_url: https://scholar.google.com/citations?user=MeKi5_AAAAAJ
+                citations: 105088
+                hindex: 54
+                i10index: 170
+              - academic:
+                name: Alexis Thual
+                profile_url: https://scholar.google.com/citations?user=FjmtlVkAAAAJ
+                citations: 31
+                hindex: 3
+                i10index: 2
+              - academic:
+                name: Elizabeth DuPre
+                profile_url: https://scholar.google.ca/citations?user=9FzK0bcAAAAJ
+                citations: 3255
+                hindex: 17
+                i10index: 20
+              - academic:
+                name: Hao-Ting Wang
+                profile_url: https://scholar.google.com/citations?user=FrlzI8IAAAAJ
+                citations: 2120
+                hindex: 19
+                i10index: 23
+              - academic:
+                name: Jérôme Dockès
+                profile_url: https://scholar.google.com/citations?user=PXeh3qwAAAAJ
+                citations: 180
+                hindex: 3
+                i10index: 2
+              - academic:
+                name: Nicolas Gensollen
+                profile_url: https://scholar.google.com/citations?user=4UsQKiwAAAAJ
+                citations: 115
+                hindex: 6
+                i10index: 2
+              - academic:
+                name: Remi Gau
+                profile_url: https://scholar.google.com/citations?user=gXOB3q8AAAAJ
+                citations: 1316
+                hindex: 12
+                i10index: 12
+              - academic:
+                name: Taylor Salo
+                profile_url: https://scholar.google.com/citations?user=IPacJoAAAAAJ
+                citations: 1952
+                hindex: 20
+                i10index: 27
+            locations:
+              - location:
+                country: France
+              - location:
+                country: USA
+              - location:
+                country: UK
+            extra:
+              summary_tags: fmri, volume, visualization, statistics, stars-1000, chan-zuckerberg-foundation, inria, human-brain-project, niconnect, digcosme, dataia, stanford
+          - item:
+            name: brainrender
+            description: |
+              brainrender is a python package for the visualization of three dimensional neuro-anatomical data.
+              It can be used to render data from publicly available data set (e.g. Allen Brain atlas) as well as user generated experimental data.
+              The goal of brainrender is to facilitate the exploration and dissemination of neuro-anatomical data by providing a user-friendly platform to create high-quality 3D renderings.
+            homepage_url: https://brainglobe.info/documentation/brainrender/index.html
+            repo_url: https://github.com/brainglobe/brainrender
+            logo: brainrender.svg
+            academics:
+              - academic:
+                name: Adam L Tyson
+                profile_url: https://scholar.google.co.uk/citations?user=YhF8QhoAAAAJ
+                citations: 489
+                hindex: 11
+                i10index: 11
+              - academic:
+                name: Federico Claudi
+                profile_url: https://scholar.google.co.uk/citations?user=8eDOmAQAAAAJ
+                citations: 308
+                hindex: 7
+                i10index: 7
+              - academic:
+                name: Alessandro Felder
+                profile_url: https://scholar.google.com/citations?user=uEuxs7sAAAAJ
+                citations: 212
+                hindex: 5
+                i10index: 4
+            locations:
+              - location:
+                country: UK
+            extra:
+              summary_tags: brainglobe, rendering, 3d, visualization
+          - item:
+            name: Neurolucida®360
+            description: |
+              Neurolucida 360 is the premier software used by neuroscientists to quickly and accurately reconstruct any neuron from any species using a wide variety of labeling and microscopy techniques.
+              With the most advanced 3D image detection algorithms coupled with machine learning techniques, Neurolucida 360 performs accurate reconstruction of 
+              neuronal structures that range in scale from complex, multicellular neuron networks, to sub-cellular neuronal components such as dendritic spines, varicosities and putative synapses.
+              This comprehensive software also includes methods to analyze glial cells such as oligodendrocytes, microglia, and astrocytes. 
+              Neurolucida 360 is engineered to work efficiently with even the largest 3D multi-channel image datasets using our innovative intelligent precognitive image handling technology.
+              And, it is compatible with file formats acquired from most research microscopes.
+            homepage_url: https://www.mbfbioscience.com/products/neurolucida-360/
+            logo: neurolucida360.svg
+            locations:
+              - location:
+                country: USA
+            extra:
+              summary_tags: mbf-bioscience, proprietary
+          - item:
+            name: MNE
+            description: |
+              MNE-Python is an open-source Python package for exploring, visualizing, and analyzing human neurophysiological data such as MEG, EEG, sEEG, ECoG, and more.
+              It includes modules for data input/output, preprocessing, visualization, source estimation, time-frequency analysis, connectivity analysis, machine learning, statistics, and more.
+            homepage_url: https://mne.tools/
+            repo_url: https://github.com/mne-tools/mne-python
+            logo: mne.svg
+            academics:
+              - academic:
+                name: Alexandre Gramfort
+                profile_url: https://scholar.google.com/citations?user=fhxshS0AAAAJ
+                citations: 112101
+                hindex: 60
+                i10index: 155
+              - academic:
+                name: Martin Luessi
+                profile_url: https://scholar.google.com/citations?user=GMo1tYEAAAAJ
+                citations: 5142
+                hindex: 16
+                i10index: 19
+              - academic:
+                name: Eric R. Larson
+                profile_url: https://scholar.google.com/citations?user=bv0ezf0AAAAJ
+                citations: 3550
+                hindex: 34
+                i10index: 60
+              - academic:
+                name: Denis A. Engemann
+                profile_url: https://scholar.google.de/citations?user=ombAzhMAAAAJ
+                citations: 7211
+                hindex: 24
+                i10index: 37
+              - academic:
+                name: Christian Brodbeck
+                profile_url: https://scholar.google.com/citations?user=m2x515IAAAAJ
+                citations: 5341
+                hindex: 14
+                i10index: 19
+            locations:
+              - location:
+                country: Global
+              - location:
+                country: USA
+            extra:
+              summary_tags: eeg meg, chan-zuckerberg-foundation, google, nih, nsf, erc, anr, amazon, us-department-of-energy, stars-2000
+          - item:
+            name: ITK-SNAP
+            description: ITK-SNAP is a free, open-source, multi-platform software application used to segment structures in 3D and 4D biomedical images.
+            homepage_url: http://www.itksnap.org/
+            repo_url: https://github.com/ABRG-Models/Stalefish
+            logo: stalefish.svg
+            academics:
+              - academic:
+                name: Paul Yushkevich
+                profile_url: https://scholar.google.com/citations?user=x-a4f8wAAAAJ
+                citations: 26657
+                hindex: 56
+                i10index: 159
+              - academic:
+                name: Jilei Hao
+                profile_url: https://scholar.google.com/citations?user=6SIsC2UAAAAJ
+                citations: 1
+                hindex: 1
+                i10index: 0
+              - academic:
+                name: Alison Pouch
+                profile_url: https://scholar.google.com/citations?user=FLKTVUYAAAAJ
+                citations: 1311
+                hindex: 23
+                i10index: 30
+            locations:
+              - location:
+                country: USA
+            extra:
+              summary_tags: university-of-pennsylvania
+          - item:
+            name: WholeBrain
+            description: |
+              This tool provides a user-friendly and efficient way for scientist with minimal knowledge of computers to create anatomical maps 
+              and integrate this information with behavioral and physiological data for sharing on the web.
+            homepage_url: https://github.com/tractatus/wholebrain/
+            repo_url: https://github.com/tractatus/wholebrain/
+            logo: wholebrain.svg
+            academics:
+              - academic:
+                name: Daniel Fürth
+                profile_url: https://scholar.google.com/citations?user=ZpYuXPIAAAAJ
+                citations: 1640
+                hindex: 11
+                i10index: 11
+            locations:
+              - location:
+                country: Sweden
+          - item:
+            name: Slicer
+            description: |
+              A software application for visualization and analysis of medical image computing data sets. All commonly used data sets are supported, such as images, segmentations, surfaces, annotations, transformations, etc., in 2D, 3D, and 4D. Visualization is available on desktop and in virtual reality. Analysis includes segmentation, registration, and various quantifications.
+              A research software platform, which allows researchers to quickly develop and evaluate new methods and distribute them to clinical users. All features are available and extensible in Python and C++. A full Python environment is provided where any Python packages can be installed and combined with built-in features. Slicer has a built-in Python console and can act as a Jupyter notebook kernel with remote 3D rendering capabilities.
+              Product development platform, which allows companies to quickly prototype and release products to users. Developers can focus on developing new methods and do not need to spend time with redeveloping basic data import/export, visualization, interaction features. The application is designed to be highly customizable (with custom branding, simplified user interface, etc.). 3D Slicer is completely free and there are no restrictions on how it is used - it is up to the software distributor to ensure that the developed application is suitable for the intended use.
+            homepage_url: https://www.slicer.org/
+            repo_url: https://github.com/Slicer/Slicer
+            logo: slicer.svg
+            academics:
+              - academic:
+                name: Andrey Fedorov
+                profile_url: https://scholar.google.com/citations?user=gaI80hgAAAAJ
+                citations: 17438
+                hindex: 35
+                i10index: 78
+              - academic:
+                name: Kalpathy-Cramer J.
+                profile_url: https://scholar.google.com/citations?user=8JTcfFMAAAAJ
+                citations: 29788
+                hindex: 68
+                i10index: 222
+              - academic:
+                name: Julien Finet
+                profile_url: https://scholar.google.bg/citations?user=AvyagSsAAAAJ
+                citations: 6675
+                hindex: 3
+                i10index: 2
+              - academic:
+                name: Jean-Christophe Fillion-Robin
+                profile_url: https://scholar.google.com/citations?user=gMzGjCgAAAAJ
+                citations: 11325
+                hindex: 13
+                i10index: 16
+            locations:
+              - location:
+                country: USA
+            extra:
+              summary_tags: harvard, dmri, morpometric-analysis, 3d, radiomics, stars-1000
+          - item:
+            name: BrainBrowser
+            description: |
+              BrainBrowser is an open source JavaScript library exposing a set of web-based 3D visualization tools primarily targetting neuroimaging [Sherif et al. 2015].
+              Using open web-standard technologies, such as WebGL and HTML5, it allows for real-time manipulation and analysis of 3D imaging data through any modern web browser.
+              The BrainBrowser Surface Viewer is a WebGL-based 3D viewer capable of displaying 3D surfaces in real-time and mapping various sorts of data to them.
+              The BrainBrowser Volume Viewer is an HTML5 canvas-based viewer allowing slice-by-slice traversal of MINC, NIfTI and MGH/freesurfer volumetric data.
+            homepage_url: https://brainbrowser.cbrain.mcgill.ca
+            repo_url: https://github.com/aces/brainbrowser
+            logo: brainbrowser.svg
+            locations:
+              - location:
+                country: USA
+            extra:
+              summary_tags: javascript, mcgill
       - subcategory:
         name: Imaging and Microscopy
         items:
@@ -2821,7 +3506,7 @@ landscape:
             academics:
               - academic:
                 name: Kushal Kolar
-                profile_url: https://scholar.google.com.pe/citations?user=wU_Okg8AAAAJ&hl=fr
+                profile_url: https://scholar.google.com.pe/citations?user=wU_Okg8AAAAJ
                 citations: 583
                 hindex: 3
                 i10index: 3
@@ -2847,7 +3532,7 @@ landscape:
             academics:
               - academic:
                 name: Andrea Giovannucci
-                profile_url: https://scholar.google.com/citations?user=juWp02sAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=juWp02sAAAAJ
                 citations: 3691
                 hindex: 22
                 i10index: 33
@@ -2866,7 +3551,7 @@ landscape:
             academics:
               - academic:
                 name: Peter Rupprecht
-                profile_url: https://scholar.google.ch/citations?user=cNQCYjkAAAAJ&hl=de
+                profile_url: https://scholar.google.ch/citations?user=cNQCYjkAAAAJ
                 citations: 492
                 hindex: 9
                 i10index: 9
@@ -2892,7 +3577,7 @@ landscape:
             academics:
               - academic:
                 name: Venus Sherathiya
-                profile_url: https://scholar.google.com/citations?user=411usK4AAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=411usK4AAAAJ
                 citations: 111
                 hindex: 4
                 i10index: 3
@@ -2901,12 +3586,256 @@ landscape:
                 country: USA
             extra:
               summary_tags: fiber-photometry, behavior, mouse, visualization, learner-lab
+          - item:
+            name: Imaris
+            description: |
+              Imaris is the world's leading Interactive Microscopy Image Analysis software, actively shaping the way microscopic images 
+              are processed through constant innovation and a clear focus on 3D and 4D imaging.
+              Serving customers in all parts of the world, our team is dedicated to building fast, stable and intuitive products.
+            homepage_url: https://imaris.oxinst.com
+            logo: imaris.svg
+            extra:
+              summary_tags: oxford-instruments, proprietary
+          - item:
+            name: suite2p
+            description: major software for cell detection in calcium imaging recordings
+            homepage_url: http://www.suite2p.org/
+            repo_url: https://github.com/MouseLand/suite2p
+            logo: suite2p.svg
+            academics:
+              - academic:
+                name: Marius Pachitariu
+                profile_url: https://scholar.google.com/citations?user=fdHbkSgAAAAJ
+                citations: 10270
+                hindex: 24
+                i10index: 28
+              - academic:
+                name: Carsen Stringer
+                profile_url: https://scholar.google.co.uk/citations?user=6v9BmeYAAAAJ
+                citations: 5120
+                hindex: 15
+                i10index: 17
+              - academic:
+                name: Sven Schröder
+                profile_url: https://scholar.google.com/citations?user=3K6NzFcAAAAJ
+                citations: 1888
+                hindex: 22
+                i10index: 47
+              - academic:
+                name: Mario Dipoppa
+                profile_url: https://scholar.google.com/citations?user=QaFiSZUAAAAJ
+                citations: 1551
+                hindex: 13
+                i10index: 13
+              - academic:
+                name: L. Federico Rossi
+                profile_url: https://scholar.google.com/citations?user=xxrep34AAAAJ
+                citations: 1156
+                hindex: 9
+                i10index: 9
+              - academic:
+                name: Matteo Carandini
+                profile_url: https://scholar.google.com/citations?user=R3PGFHsAAAAJ
+                citations: 30283
+                hindex: 80
+                i10index: 112
+              - academic:
+                name: Kenneth Harris
+                profile_url: https://scholar.google.com/citations?user=jcYBNfIAAAAJ
+                citations: 32208
+                hindex: 74
+                i10index: 120
+            locations:
+              - location:
+                country: USA
+              - location:
+                country: UK
+            extra:
+              summary_tags: imaging, calcium-imaging, hhmi, ucla
+          - item:
+            name: EASI-FISH
+            description: |
+              This workflow is used to analyze large-scale, multi-round, high-resolution image data acquired using EASI-FISH (Expansion-Assisted Iterative Fluorescence In Situ Hybridization).
+              It takes advantage of the n5 filesystem to allow for rapid and parallel data reading and writing.
+              It performs automated image stitching, distributed and highly accurate multi-round image registration, 3D cell segmentation, and distributed spot detection.
+              We also envision this workflow being adapted for analysis of other image-based spatial transcriptomic data.
+            homepage_url: https://github.com/multiFISH/EASI-FISH
+            repo_url: https://github.com/multiFISH/EASI-FISH
+            logo: easi-fish.svg
+            academics:
+              - academic:
+                name: Yuhan Wang
+                profile_url: https://scholar.google.com/citations?user=tIWfvJcAAAAJ
+                citations: 365
+                hindex: 8
+                i10index: 8
+              - academic:
+                name: Konrad Rokicki
+                profile_url: https://scholar.google.com/citations?user=DLHPD1kAAAAJ
+                citations: 1958
+                hindex: 9
+                i10index: 9
+            locations:
+              - location:
+                country: USA
+            extra:
+              summary_tags: n5, hhmi, segmentation
+          - item:
+            name: CLIJ2
+            description: |
+              CLIJ2 is a GPU-accelerated image processing library for ImageJ/Fiji, Icy, Matlab and Java.
+              It comes with hundreds of operations for filtering, binarizing, labeling, measuring in images, projections, transformations and mathematical operations for images.
+              While most of these are classical image processing operations, CLIJ2 also allows performing operations on matrices potentially representing neighborhood relationships between cells and pixels.
+            homepage_url: https://clij.github.io
+            repo_url: https://github.com/clij/clij2/
+            logo: clij2.svg
+            academics:
+              - academic:
+                name: Robert Haase
+                profile_url: https://scholar.google.de/citations?user=giB4g-MAAAAJ
+                citations: 1719
+                hindex: 19
+                i10index: 26
+            locations:
+              - location:
+                city: Leipzig
+                country: Germany
+            extra:
+              summary_tags: fiji, icy
+          - item:
+            name: DIPY
+            description: |
+              DIPY is the paragon 3D/4D+ imaging library in Python. Contains generic methods for spatial normalization, signal processing, machine learning, statistical analysis and visualization of medical images.
+              Additionally, it contains specialized methods for computational anatomy including diffusion, perfusion and structural imaging.
+            homepage_url: https://dipy.org/
+            repo_url: https://github.com/dipy/dipy
+            logo: dipy.svg
+            academics:
+              - academic:
+                name: Eleftherios Garyfallidis
+                profile_url: https://scholar.google.com/citations?user=Ln2EyRYAAAAJ
+                citations: 5298
+                hindex: 26
+                i10index: 46
+              - academic:
+                name: Matthew Brett
+                profile_url: https://scholar.google.com.vn/citations?user=q12RP7AAAAAJ
+                citations: 64079
+                hindex: 42
+                i10index: 59
+              - academic:
+                name: Ariel Rokem
+                profile_url: https://scholar.google.com/citations?user=hrBeLVYAAAAJ
+                citations: 7583
+                hindex: 40
+                i10index: 64
+              - academic:
+                name: Stéfan van der Walt
+                profile_url: https://scholar.google.com/citations?user=WWa5B6kAAAAJ
+                citations: 59736
+                hindex: 20
+                i10index: 25
+              - academic:
+                name: Maxime Descoteaux
+                profile_url: https://scholar.google.com/citations?user=ohzG9ScAAAAJ
+                citations: 15724
+                hindex: 60
+                i10index: 177
+            locations:
+              - location:
+                country: USA
+            extra:
+              summary_tags: ml, statistics, nih, chan-zuckerberg-foundation, uw
+          - item:
+            name: neuTube
+            description: |
+              DIPY is the paragon 3D/4D+ imaging library in Python. Contains generic methods for spatial normalization, signal processing, machine learning, statistical analysis and visualization of medical images.
+              Additionally, it contains specialized methods for computational anatomy including diffusion, perfusion and structural imaging.
+            homepage_url: https://www.neutracing.com/
+            repo_url: https://github.com/tingzhao/neutube
+            logo: neutube.svg
+            academics:
+              - academic:
+                name: Ting Zhao
+                profile_url: https://scholar.google.com/citations?user=lGzMhGIAAAAJ
+                citations: 3969
+                hindex: 22
+                i10index: 32
+            locations:
+              - location:
+                country: USA
+              - location:
+                country: South Korea
+            extra:
+              summary_tags: hhmi, kist
+          - item:
+            name: nipype
+            description: |
+              Nipype, an open-source, community-developed initiative under the umbrella of NiPy, is a Python project that provides 
+              a uniform interface to existing neuroimaging software and facilitates interaction between these packages within a single workflow. 
+              Nipype provides an environment that encourages interactive exploration of algorithms from different packages 
+              (e.g., SPM, FSL, FreeSurfer, AFNI, Slicer, ANTS), eases the design of workflows within and between packages, 
+              and reduces the learning curve necessary to use different packages. 
+              Nipype is creating a collaborative platform for neuroimaging software development in a high-level language and addressing limitations of existing pipeline systems.
+            homepage_url: https://github.com/nipy/nipype
+            repo_url: https://github.com/nipy/nipype
+            logo: nipy.svg
+            academics:
+              - academic:
+                name: Satrajit Ghosh
+                profile_url: https://scholar.google.com/citations?user=QnYCqUsAAAAJ
+                citations: 18429
+                hindex: 53
+                i10index: 109
+              - academic:
+                name: Krzysztof J. Gorgolewski
+                profile_url: https://scholar.google.com/citations?user=q1CgMZ8AAAAJ
+                citations: 16691
+                hindex: 47
+                i10index: 60
+              - academic:
+                name: Oscar Esteban
+                profile_url: https://scholar.google.com/citations?user=sipSQH8AAAAJ
+                citations: 7468
+                hindex: 21
+                i10index: 27
+              - academic:
+                name: Chris Markiewicz
+                profile_url: https://scholar.google.com/citations?user=8yh5_cgAAAAJ
+                citations: 3527
+                hindex: 19
+                i10index: 109
+            locations:
+              - location:
+                country: USA
+            extra:
+              summary_tags: mit, nipy
+          - item:
+            name: micro-manager
+            description: Microscope control and image acquisition integrated with ImageJ.
+            homepage_url: https://micro-manager.org/
+            repo_url: https://github.com/micro-manager/micro-manager
+            logo: micro-manager.svg
+            academics:
+              - academic:
+                name: Mark Tsuchida
+                profile_url: https://scholar.google.com/citations?user=xLZ5O4MAAAAJ
+                citations: 2396
+                hindex: 6
+                i10index: 6
+            locations:
+              - location:
+                country: USA
+            extra:
+              summary_tags:
       - subcategory:
         name: Segmentation
         items:
           - item:
             name: Segment Anything
-            description: The Segment Anything Model (SAM) produces high quality object masks from input prompts such as points or boxes, and it can be used to generate masks for all objects in an image. It has been trained on a dataset of 11 million images and 1.1 billion masks, and has strong zero-shot performance on a variety of segmentation tasks.
+            description: |
+              The Segment Anything Model (SAM) produces high quality object masks from input prompts such as points or boxes, and it can be used to generate masks for all objects in an image.
+              It has been trained on a dataset of 11 million images and 1.1 billion masks, and has strong zero-shot performance on a variety of segmentation tasks.
             homepage_url: https://github.com/facebookresearch/segment-anything
             repo_url: https://github.com/facebookresearch/segment-anything
             logo: segment-anything.svg
@@ -2940,6 +3869,32 @@ landscape:
                 country: USA
             extra:
               summary_tags: allen-institute, exa-spim, allen-institute, royer-lab
+          - item:
+            name: cellfinder
+            description: |
+              cellfinder is software for automated 3D cell detection in very large 3D images (e.g., serial two-photon or lightsheet volumes of whole mouse brains).
+              There are three different ways to interact and use it, each with different user interfaces and objectives in mind.
+            homepage_url: https://brainglobe.info/documentation/cellfinder/index.html
+            repo_url: https://github.com/brainglobe/cellfinder
+            logo: cellfinder.svg
+            academics:
+              - academic:
+                name: Adam L Tyson
+                profile_url: https://scholar.google.co.uk/citations?user=YhF8QhoAAAAJ
+                citations: 489
+                hindex: 11
+                i10index: 11
+              - academic:
+                name: Alessandro Felder
+                profile_url: https://scholar.google.com/citations?user=uEuxs7sAAAAJ
+                citations: 212
+                hindex: 5
+                i10index: 4
+            locations:
+              - location:
+                country: UK
+            extra:
+              summary_tags: brainglobe, napari, cells, volumetric
       - subcategory:
         name: Simulation
         items:
@@ -3074,13 +4029,13 @@ landscape:
             academics:
               - academic:
                 name: James Knight
-                profile_url: https://scholar.google.co.uk/citations?user=asUiHlIAAAAJ&hl=en
+                profile_url: https://scholar.google.co.uk/citations?user=asUiHlIAAAAJ
                 citations: 476
                 hindex: 11
                 i10index: 12
               - academic:
                 name: Thomas Nowotny
-                profile_url: https://scholar.google.ca/citations?user=W3T-i5AAAAAJ&hl=en
+                profile_url: https://scholar.google.ca/citations?user=W3T-i5AAAAAJ
                 citations: 3175
                 hindex: 31
                 i10index: 60
@@ -3089,6 +4044,123 @@ landscape:
                 country: UK
             extra:
               summary_tags: university-of-sussex, espr, gpu, cuda
+          - item:
+            name: Brian2
+            description: |
+              Brian is a simulator for spiking neural networks.
+              It is written in the Python programming language and is available on almost all platforms.
+              We believe that a simulator should not only save the time of processors, but also the time of scientists.
+              Brian is therefore designed to be easy to learn and use, highly flexible and easily extensible.
+            homepage_url: http://briansimulator.org/
+            repo_url: https://github.com/brian-team/brian2
+            logo: brian2.svg
+            academics:
+              - academic:
+                name: Romain Brette
+                profile_url: https://scholar.google.com/citations?user=lEHiPU4AAAAJ
+                citations: 8477
+                hindex: 39
+                i10index: 71
+              - academic:
+                name: Dan Goodman
+                profile_url: https://scholar.google.com/citations?user=2HiNqI4AAAAJ
+                citations: 4476
+                hindex: 25
+                i10index: 35
+              - academic:
+                name: Marcel Stimberg
+                profile_url: https://scholar.google.com/citations?user=KJs3XswAAAAJ
+                citations: 1564
+                hindex: 12
+                i10index: 13
+            locations:
+              - location:
+                country: UK
+              - location:
+                city: Paris
+                country: France
+            extra:
+              summary_tags: ucl, insrem, stars-800, spikes
+          - item:
+            name: NEST
+            description: |
+              NEST is a simulator for spiking neural network models that focuses on the dynamics,
+              size and structure of neural systems rather than on the exact morphology of individual neurons.
+            homepage_url: http://www.nest-simulator.org/
+            repo_url: https://github.com/nest/nest-simulator/
+            logo: nest.svg
+            academics:
+              - academic:
+                name: Marc-Oliver Gewaltig
+                profile_url: https://scholar.google.com/citations?user=Dy-lNyAAAAAJ
+                citations: 4989
+                hindex: 25
+                i10index: 40
+              - academic:
+                name: Markus Diesmann
+                profile_url: https://scholar.google.ch/citations?user=q4bTHJoAAAAJ
+                citations: 14387
+                hindex: 54
+                i10index: 116
+            locations:
+              - location:
+                country: Switzerland
+            extra:
+              summary_tags: epfl, blue-brain
+          - item:
+            name: neurolib
+            description: |
+              neurolib is a simulation and optimization framework for whole-brain modeling.
+              It allows you to implement your own neural mass models which can simulate fMRI BOLD activity.
+              neurolib helps you to analyse your simulations, to load and handle structural and functional brain data,
+              and to use powerful evolutionary algorithms to tune your model's parameters and fit it to empirical data.
+            homepage_url: https://github.com/neurolib-dev/neurolib
+            repo_url: https://github.com/neurolib-dev/neurolib
+            logo: neurolib.svg
+            academics:
+              - academic:
+                name: Caglar Cakan
+                profile_url: https://scholar.google.com/citations?user=WcS2RxwAAAAJ
+                citations: 201
+                hindex: 6
+                i10index: 5
+              - academic:
+                name: Nikola Jajcay
+                profile_url: https://scholar.google.cz/citations?user=kynXndQAAAAJ
+                citations: 637
+                hindex: 10
+                i10index: 10
+            locations:
+              - location:
+                city: Berlin
+                country: Germany
+              - location:
+                country: Czechia
+            extra:
+              summary_tags: bccn
+          - item:
+            name: emergent
+            description: |
+              emergent provides a toolkit / framework for implementing neural network models, written in Go, with an optional Python interface that is automatically generated from the Go code. See the github site for all the code and extensive documentation.
+              The primary application of emergent is for the biologically-based Leabra algorithm, which simulates point neuron equations with either rate-code or spiking activations, and a biologically-based form of error-backpropagation based on bidirectional excitatory projections.
+              This more complex, many-state-variable model is not well-supported by existing backpropagation-oriented tools such as PyTorch or TensorFlow, which operate fundamentally on simple tensors of floating-point numbers.
+              A primary goal of emergent is to provide effective GUI interfaces that make it easier to understand the functioning of complex neural models, including an interactive 3D NetView, interactive 2D line and bar plots, heat-map grids of tensors, and tables of data.
+              The eTorch repository provides these interactive GUI elements for PyTorch-based models.
+            homepage_url: http://emersim.org/
+            repo_url: https://github.com/emer/emergent
+            logo: emergent.svg
+            academics:
+              - academic:
+                name: Randall C. O'Reilly
+                profile_url: https://scholar.google.com/citations?user=tZpKKm4AAAAJ
+                citations: 33694
+                hindex: 70
+                i10index: 124
+            locations:
+              - location:
+                country: USA
+            extra:
+              summary_tags: bccn, ucdavis
       - subcategory:
         name: Deep Learning
         items:
@@ -3148,7 +4220,7 @@ landscape:
             academics:
               - academic:
                 name: Martin Reuter
-                profile_url: https://scholar.google.com/citations?user=CbdJk1wAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=CbdJk1wAAAAJ
                 citations: 13085
                 hindex: 45
                 i10index: 70
@@ -3159,6 +4231,39 @@ landscape:
                 country: Germany
             extra:
               summary_tags: pytorch, volumetric, reuter-lab, deep-mi-lab, mit, fmri, cnn
+          - item:
+            name: MorphoPy
+            description: |
+              MorphoPy is a Python3 package that uses networkX to compute and show information about neurites.
+              The input can be passed with single swc-files or it can handle whole directories with multiple files at once.
+              You can use MorphoPy imported in Python, as well as from the command line as a batch-tool.
+            homepage_url: https://jollejolles.github.io/pirecorder/
+            repo_url: https://github.com/JolleJolles/pirecorder
+            logo: morphopy.svg
+            academics:
+              - academic:
+                name: Sophie Laturnus
+                profile_url: https://scholar.google.de/citations?user=MDz7wOIAAAAJ
+                citations: 793
+                hindex: 7
+                i10index: 5
+              - academic:
+                name: Ziwei Huang
+                profile_url: https://scholar.google.com/citations?user=nCAr1egAAAAJ
+                citations: 79
+                hindex: 4
+                i10index: 2
+              - academic:
+                name: Philipp Berens
+                profile_url: https://scholar.google.com/citations?user=lPQLk3QAAAAJ
+                citations: 13437
+                hindex: 41
+                i10index: 69
+            locations:
+              - location:
+                country: Germany
+            extra:
+              summary_tags: features
       - subcategory:
         name: Electrophysiology
         items:
@@ -3290,7 +4395,7 @@ landscape:
             academics:
               - academic:
                 name: Luke Campagnola
-                profile_url: https://scholar.google.com/citations?user=CwVAgvcAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=CwVAgvcAAAAJ
                 citations: 1247
                 hindex: 13
                 i10index: 14
@@ -3299,6 +4404,93 @@ landscape:
                 country: USA
             extra:
               summary_tags: allen-institute, university-of-north-carolina
+          - item:
+            name: Kilosort4
+            description: |
+              Kilosort4 is a Python package for spike sorting on GPUs with template matching.
+              The software uses new graph-based approaches to clustering that improve performance compared to previous versions
+            homepage_url: https://kilosort.readthedocs.io/
+            repo_url: https://github.com/MouseLand/Kilosort
+            logo: kilosort.svg
+            academics:
+              - academic:
+                name: Marius Pachitariu
+                profile_url: https://scholar.google.com/citations?user=fdHbkSgAAAAJ
+                citations: 10270
+                hindex: 24
+                i10index: 28
+            locations:
+              - location:
+                country: USA
+            extra:
+              summary_tags: hhmi
+          - item:
+            name: CellExplorer
+            description: |
+              CellExplorer is a graphical user interface, a standardized processing module and data structure for exploring 
+              and classifying single cells acquired using extracellular electrodes.
+            homepage_url: https://cellexplorer.org
+            repo_url: https://github.com/petersenpeter/CellExplorer
+            logo: cell-explorer.svg
+            academics:
+              - academic:
+                name: Peter Christian Petersen
+                profile_url: https://scholar.google.dk/citations?user=RywQhd8AAAAJ
+                citations: 668
+                hindex: 12
+                i10index: 13
+            locations:
+              - location:
+                city: New York
+                country: USA
+            extra:
+              summary_tags: nyu, buzsaki-lab, petersen-lab, nih, brain-initiative, ucph
+          - item:
+            name: OPETH
+            description: |
+              Single cell electrophysiology remains one of the most widely used approaches of systems neuroscience.
+              Decisions made by the experimenter during electrophysiology recording largely determine recording quality, duration of the project and value of the collected data.
+              Therefore, online feedback aiding these decisions can lower monetary and time investment, 
+              and substantially speed up projects as well as allow novel studies otherwise not possible due to prohibitively low throughput.
+              Real-time feedback is especially important in studies that involve optogenetic cell type identification by enabling a systematic search for neurons of interest.
+              However, such tools are scarce and limited to costly commercial systems with high degree of specialization, which hitherto prevented wide-ranging benefits for the community.
+              To address this, we present an open-source tool that enables online feedback during electrophysiology experiments and provides a Python interface for the widely used Open Ephys open source data acquisition system.
+              Specifically, our software allows flexible online visualization of spike alignment to external events, called the online peri-event time histogram (OPETH).
+              These external events, conveyed by digital logic signals, may indicate photostimulation time stamps for in vivo optogenetic cell type identification or the times of behaviorally relevant events during in vivo behavioral neurophysiology experiments.
+              Therefore, OPETH allows real-time identification of genetically defined neuron types or behaviorally responsive populations.
+              By allowing “hunting” for neurons of interest, OPETH significantly reduces experiment time and thus increases the efficiency of experiments that combine in vivo electrophysiology with behavior or optogenetic tagging of neurons.
+            homepage_url: https://github.com/hangyabalazs/opeth
+            repo_url: https://github.com/hangyabalazs/opeth
+            logo: opeth.svg
+            academics:
+              - academic:
+                name: András Széll
+                profile_url: https://scholar.google.hu/citations?user=IZMp1vQAAAAJ
+                citations: 18
+                hindex: 2
+                i10index: 0
+              - academic:
+                name: Balazs Hangya
+                profile_url: https://scholar.google.com/citations?user=v2DY1SwAAAAJ
+                citations: 4917
+                hindex: 25
+                i10index: 33
+            locations:
+              - location:
+                country: Hungary
+            extra:
+              summary_tags: single-cell
+          - item:
+            name: BrainFlow
+            description: BrainFlow is a library intended to obtain, parse and analyze EEG, EMG, ECG and other kinds of data from biosensors.
+            homepage_url: https://brainflow.org
+            repo_url: https://github.com/brainflow-dev/brainflow
+            logo: brainflow.svg
+            locations:
+              - location:
+                country: Norway
+            extra:
+              summary_tags: stars-1000, open-bci
       - subcategory:
         name: Data Formats
         items:
@@ -3324,6 +4516,112 @@ landscape:
                 country: USA
             extra:
               summary_tags: allen-institute
+          - item:
+            name: Clinica
+            description: |
+              Clinica is a software platform for clinical research studies involving patients with neurological and psychiatric diseases 
+              and the acquisition of multimodal data (neuroimaging, clinical and cognitive evaluations, genetics...), most often with longitudinal follow-up.
+              Clinica provides tools to convert publicly available neuroimaging datasets into BIDS, namely: ADNI; AIBL; HABS; NIFD; OASIS; OASIS-3.
+              Clinica is command-line driven and written in Python. It uses the Nipype system for pipelining and combines widely-used software packages for neuroimaging data analysis 
+              (ANTs, FreeSurfer, FSL, MRtrix, PETPVC, SPM), machine learning (Scikit-learn) and the BIDS standard for data organization.
+            homepage_url: http://www.clinica.run/
+            repo_url: https://github.com/aramis-lab/clinica
+            logo: clinica.svg
+            academics:
+              - academic:
+                name: Alexandre Routier
+                profile_url: https://scholar.google.com/citations?user=V0nPvnsAAAAJ
+                citations: 1755
+                hindex: 17
+                i10index: 21
+              - academic:
+                name: Ninon Burgos
+                profile_url: https://scholar.google.com/citations?user=lHuYSU0AAAAJ
+                citations: 2845
+                hindex: 25
+                i10index: 40
+              - academic:
+                name: Simona Bottani
+                profile_url: https://scholar.google.it/citations?user=ayfZcfkAAAAJ
+                citations: 1151
+                hindex: 12
+                i10index: 15
+            locations:
+              - location:
+                country: USA
+              - location:
+                city: Paris
+                country: France
+              - location:
+                country: Italy
+            extra:
+              summary_tags: adni, aibl, habs, nifd, oasis, bids, caps, aramis, paris-brain-institute, mir, pet, deep-learning
+          - item:
+            name: ERPLAB
+            description: |
+              ERPLAB Toolbox is a free, open-source Matlab package for analyzing ERP data.
+              It is tightly integrated with EEGLAB Toolbox, extending EEGLAB's capabilities to provide robust, industrial-strength tools for ERP processing, visualization, and analysis. 
+              A graphical user interface makes it easy for beginners to learn, and Matlab scripting provides enormous power for intermediate and advanced users.
+            homepage_url: http://erpinfo.org/erplab
+            repo_url: https://github.com/ucdavis/erplab
+            logo: erplab.svg
+            academics:
+              - academic:
+                name: Steve Luck
+                profile_url: https://scholar.google.com/citations?user=vlTXmTgAAAAJ
+                citations: 69676
+                hindex: 114
+                i10index: 241
+              - academic:
+                name: Emily Kappenman
+                profile_url: https://scholar.google.com/citations?user=ccbjkokAAAAJ
+                citations: 8097
+                hindex: 34
+                i10index: 47
+            locations:
+              - location:
+                country: USA
+            extra:
+              summary_tags: erp, ucdavis, san-diego-state-university
+          - item:
+            name: nibabel
+            description: |
+              Read and write access to common neuroimaging file formats, including: ANALYZE (plain, SPM99, SPM2 and later), GIFTI, NIfTI1, NIfTI2, CIFTI-2, MINC1, MINC2, AFNI BRIK/HEAD, ECAT and Philips PAR/REC.
+              In addition, NiBabel also supports FreeSurfer's MGH, geometry, annotation and morphometry files, and provides some limited support for DICOM.
+              NiBabel's API gives full or selective access to header information (metadata), and image data is made available via NumPy arrays.
+            homepage_url: http://nipy.org/nibabel/
+            repo_url: https://github.com/nipy/nibabel
+            logo: nibabel.svg
+            academics:
+              - academic:
+                name: Matthew Brett
+                profile_url: https://scholar.google.com/citations?user=q12RP7AAAAAJ
+                citations: 64079
+                hindex: 42
+                i10index: 59
+              - academic:
+                name: Chris Markiewicz
+                profile_url: https://scholar.google.com/citations?user=8yh5_cgAAAAJ
+                citations: 3527
+                hindex: 19
+                i10index: 109
+              - academic:
+                name: Michael Hanke
+                profile_url: https://scholar.google.com/citations?user=3tT7QQ8AAAAJ
+                citations: 6150
+                hindex: 27
+                i10index: 42
+              - academic:
+                name: Marc-Alexandre Côté
+                profile_url: https://scholar.google.com.sg/citations?user=L83CE5gAAAAJ
+                citations: 4483
+                hindex: 24
+                i10index: 42
+            locations:
+              - location:
+                country: USA
+            extra:
+              summary_tags: mit, nipy
       - subcategory:
         name: Cells & Transcriptomics
         items:
@@ -3398,13 +4696,13 @@ landscape:
             academics:
               - academic:
                 name: Parul Sethi
-                profile_url: https://scholar.google.com/citations?user=a3yddV0AAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=a3yddV0AAAAJ
                 citations: 9
                 hindex: 1
                 i10index: 0
               - academic:
                 name: Garima Virmani
-                profile_url: https://scholar.google.com/citations?user=OY_aDjEAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=OY_aDjEAAAAJ
                 citations: 102
                 hindex: 5
                 i10index: 2
@@ -3427,19 +4725,19 @@ landscape:
             academics:
               - academic:
                 name: André Maia Chagas
-                profile_url: https://scholar.google.com/citations?user=CGSly_wAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=CGSly_wAAAAJ
                 hindex: 10
                 citations: 1002
                 i10index: 11
               - academic:
                 name: Matias Andina
-                profile_url: https://scholar.google.com/citations?user=PnTVdPAAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=PnTVdPAAAAAJ
                 citations: 187
                 hindex: 2
                 i10index: 1
               - academic:
                 name: Cecilia Thomsett Herbert
-                profile_url: https://scholar.google.com/citations?user=wAjdb0cAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=wAjdb0cAAAAJ
                 citations: 9
                 hindex: 2
                 i10index: 0
@@ -3451,7 +4749,7 @@ landscape:
             extra:
               summary_tags: software, tooling, university-of-sussex, mit
       - subcategory:
-        name: Copmutation
+        name: Compute
         items:
           - item:
             name: DataJoint
@@ -3464,7 +4762,7 @@ landscape:
             academics:
               - academic:
                 name: Dimitri Yatsenko
-                profile_url: https://scholar.google.com/citations?user=btJnLV8AAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=btJnLV8AAAAJ
                 citations: 2249
                 hindex: 17
                 i10index: 23
@@ -3473,6 +4771,148 @@ landscape:
                 country: USA
             extra:
               summary_tags: software, data-pipelines, experiments, orchestration
+          - item:
+            name: neurocommand
+            description: A flexible, scalable, and easy to use data analysis environment for reproducible neuroimaging.
+            homepage_url: https://neurodesk.org/docs/neurocommand
+            repo_url: https://github.com/NeuroDesk
+            logo: neurodesk.svg
+            academics:
+              - academic:
+                name: Steffen Bollmann
+                profile_url: https://scholar.google.com/citations?user=HmXlj24AAAAJ
+                citations: 1400
+                hindex: 17
+                i10index: 26
+              - academic:
+                name: Angela Renton
+                profile_url: https://scholar.google.com/citations?user=6pC19kMAAAAJ&oi=ao
+                citations: 89
+                hindex: 5
+                i10index: 3
+            locations:
+              - location:
+                country: Australia
+            extra:
+              summary_tags: neurodesk, containers, cloud
+          - item:
+            name: COINSTAC
+            description: |
+              COINSTAC is software to foster collaborative research, removing large barriers to traditional data-centric collaboration approaches.
+              It enables groups of users to run common analyses on their own machines over their own datasets with ease.
+              The results of these analyses are synchronized to the cloud, and undergo aggregate analyses processes using all contributor data.
+              Federated (decentralized) pipelines allow for distributed, iterative, and feature rich analyses to be run, opening new and exciting capabilities for collaborative computation.
+              It also offers data anonymity through differentially private algorithms, so members do not need to fear PHI traceback.
+            homepage_url: https://github.com/trendscenter/coinstac?tab=readme-ov-file
+            repo_url: https://github.com/trendscenter/coinstac
+            logo: coinstack.svg
+            academics:
+              - academic:
+                name: Sergey M. Plis
+                profile_url: https://scholar.google.com/citations?hl=en&user=nm3liowAAAAJ
+                citations: 8158
+                hindex: 32
+                i10index: 86
+              - academic:
+                name: Anand Sarwate
+                profile_url: https://scholar.google.com/citations?user=jgr1-eEAAAAJ
+                citations: 6236
+                hindex: 29
+                i10index: 75
+              - academic:
+                name: Jessica Turner
+                profile_url: https://scholar.google.com/citations?user=ZKNV2f4AAAAJ
+                citations: 30344
+                hindex: 82
+                i10index: 255
+            locations:
+              - location:
+                city: Atlanta
+                country: USA
+            extra:
+              summary_tags: data-sharing
+          - item:
+            name: Uncertainpy
+            description: Uncertainpy is a python toolbox for uncertainty quantification and sensitivity analysis tailored towards computational neuroscience.
+            homepage_url: https://github.com/simetenn/uncertainpy
+            repo_url: https://github.com/simetenn/uncertainpy
+            logo: uncertainpy.svg
+            academics:
+              - academic:
+                name: Simen Tennøe
+                profile_url: https://scholar.google.com/citations?user=zFbLES8AAAAJ
+                citations: 345
+                hindex: 7
+                i10index: 6
+              - academic:
+                name: Geir Halnes
+                profile_url: https://scholar.google.com/citations?user=68xilNsAAAAJ
+                citations: 1003
+                hindex: 18
+                i10index: 26
+              - academic:
+                name: Gaute Einevoll
+                profile_url: https://scholar.google.no/citations?user=np0Lz5kAAAAJ
+                citations: 9901
+                hindex: 47
+                i10index: 112
+            locations:
+              - location:
+                country: Norway
+            extra:
+              summary_tags: statistics
+          - item:
+            name: BrainSMASH
+            description: |
+              BrainSMASH (Brain Surrogate Maps with Autocorrelated Spatial Heterogeneity) is a Python-based computational platform for statistical testing of spatially autocorrelated brain maps.
+              At the heart of BrainSMASH is the ability to simulate surrogate brain maps with spatial autocorrelation that is matched to spatial autocorrelation in a target brain map.
+              Additional utilities are provided for users using Connectome Workbench style surface-based neuroimaging files.
+            homepage_url: https://github.com/murraylab/brainsmash
+            repo_url: https://github.com/murraylab/brainsmash
+            logo: brainsmash.svg
+            academics:
+              - academic:
+                name: Joshua B. Burt
+                profile_url: https://scholar.google.com/citations?user=FeXjzecAAAAJ
+                citations: 1434
+                hindex: 7
+                i10index: 7
+              - academic:
+                name: John D. Murray
+                profile_url: https://scholar.google.com/citations?user=LCAIVIUAAAAJ
+                citations: 8694
+                hindex: 39
+                i10index: 63
+            locations:
+              - location:
+                country: USA
+            extra:
+              summary_tags: statistics, dartmouth
+          - item:
+            name: neurodocker
+            description: Generate custom Docker and Singularity images, and minimize existing containers
+            homepage_url: https://www.repronim.org/neurodocker/
+            repo_url: https://github.com/ReproNim/neurodocker
+            logo: repronim.svg
+            academics:
+              - academic:
+                name: Jakub Kaczmarzyk
+                profile_url: https://scholar.google.com/citations?user=1QmdUeUAAAAJ
+                citations: 818
+                hindex: 11
+                i10index: 12
+              - academic:
+                name: Remi Gau
+                profile_url: https://scholar.google.com/citations?user=gXOB3q8AAAAJ
+                citations: 1316
+                hindex: 12
+                i10index: 12
+            locations:
+              - location:
+                city: New York
+                country: USA
+            extra:
+              summary_tags: neurodesk, containers, cloud
       - subcategory:
         name: Behavior
         items:
@@ -3493,7 +4933,7 @@ landscape:
             academics:
               - academic:
                 name: Jumpei Matsumoto
-                profile_url: https://scholar.google.co.jp/citations?user=_d71FFcAAAAJ&hl=en
+                profile_url: https://scholar.google.co.jp/citations?user=_d71FFcAAAAJ
                 hindex: 22
                 citations: 1735
                 i10index: 42
@@ -3511,7 +4951,7 @@ landscape:
             academics:
               - academic:
                 name: Thomas TOPILKO
-                profile_url: https://scholar.google.com/citations?user=c8-kpPQAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=c8-kpPQAAAAJ
                 citations: 537
                 hindex: 5
                 i10index: 4
@@ -3534,7 +4974,7 @@ landscape:
             academics:
               - academic:
                 name: Thomas Akam
-                profile_url: https://scholar.google.com/citations?user=b809FRsAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=b809FRsAAAAJ
                 citations: 1426
                 hindex: 16
                 i10index: 17
@@ -3558,7 +4998,7 @@ landscape:
             academics:
               - academic:
                 name: Timothy Dunn
-                profile_url: https://scholar.google.com/citations?user=6lIlidIAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=6lIlidIAAAAJ
                 citations: 1830
                 hindex: 14
                 i10index: 18
@@ -3567,6 +5007,228 @@ landscape:
                 country: USA
             extra:
               summary_tags: duke, deep-learning, mouse
+          - item:
+            name: Autopilot
+            description: |
+              Autopilot is a Python framework for performing complex, hardware-intensive behavioral experiments with swarms of networked Raspberry Pis.
+              As a tool, it provides researchers with a toolkit of flexible modules to design experiments without rigid programming & API limitations.
+              As a vision, it dreams of bridging the chaotic hacky creativity of scientific programmers with a standardized, communally developed library of reproducible experiment prototypes.
+            homepage_url: https://docs.auto-pi-lot.com/en/latest/
+            repo_url: https://github.com/auto-pi-lot/autopilot
+            logo: autopilot_logo.svg
+            academics:
+              - academic:
+                name: Jonny Saunders
+                profile_url: https://scholar.google.com/citations?user=bTWvCzEAAAAJ
+                citations: 161
+                hindex: 4
+                i10index: 4
+            locations:
+              - location:
+                country: USA
+            extra:
+              summary_tags: hardware, raspberry-pi, rpi, behavior, ucla
+          - item:
+            name: lab.js
+            description: |
+              lab.js makes it easy to build, run and share studies that help understand the mind.
+              It allows everyone to construct and construct experiments and surveys within the browser;
+              the graphical builder makes it easy to get started without writing code.
+            homepage_url: https://lab.js.org/
+            repo_url: https://github.com/FelixHenninger/lab.js
+            logo: labjs.svg
+            academics:
+              - academic:
+                name: Felix Henninger
+                profile_url: https://scholar.google.de/citations?user=X9A-7EsAAAAJ
+                citations: 9916
+                hindex: 11
+                i10index: 12
+            locations:
+              - location:
+                city: Munich
+                country: Germany
+            extra:
+              summary_tags: behavioral, surveys, reality-labs, meta
+          - item:
+            name: jsPsych
+            description: |
+              jsPsych is a JavaScript framework for creating behavioral experiments that run in a web browser.
+              Experiments in jsPsych are created using plugins.
+              Each plugin defines different kinds of events, like showing an image on the screen, and collects different kinds of data, like recording which key was pressed at which time.
+              By assembling different plugins together into a timeline, it is possible to create a wide range of online experiments.
+            homepage_url: https://www.jspsych.org/
+            repo_url: https://github.com/jspsych/jsPsych
+            logo: jspsych.svg
+            academics:
+              - academic:
+                name: Josh de Leeuw
+                profile_url: https://scholar.google.com/citations?user=fUtClyAAAAAJ
+                citations: 2372
+                hindex: 14
+                i10index: 15
+            locations:
+              - location:
+                city: New York
+                country: USA
+            extra:
+              summary_tags: behavioral, surveys
+          - item:
+            name: DeepLabCut™
+            description: |
+              DeepLabCut™ is an efficient method for 2D and 3D markerless pose estimation 
+              based on transfer learning with deep neural networks that achieves excellent results (i.e. you can match human labeling accuracy) 
+              with minimal training data (typically 50-200 frames). 
+              We demonstrate the versatility of this framework by tracking various body parts in multiple species across a broad collection of behaviors.
+              The package is open source, fast, robust, and can be used to compute 3D pose estimates or for multi-animals.
+            homepage_url: http://deeplabcut.org/
+            repo_url: https://github.com/DeepLabCut/DeepLabCut
+            logo: deeplabcut.svg
+            academics:
+              - academic:
+                name: Alexander Mathis
+                profile_url: https://scholar.google.ch/citations?user=Y1xCzE0AAAAJ
+                citations: 6888
+                hindex: 24
+                i10index: 27
+              - academic:
+                name: Mackenzie Weygandt Mathis
+                profile_url: https://scholar.google.com/citations?user=IhqY9XgAAAAJ
+                citations: 9030
+                hindex: 23
+                i10index: 26
+              - academic:
+                name: Jessy Lauer
+                profile_url: https://scholar.google.com/citations?user=F5tdw9oAAAAJ
+                citations: 579
+                hindex: 8
+                i10index: 7
+            locations:
+              - location:
+                country: Global
+              - location:
+                country: USA
+              - location:
+                country: Switzerland
+            extra:
+              summary_tags: pose-estimation, mouse, human, fish, deep-learning, stars-4000, chan-zuckerberg-foundation
+          - item:
+            name: pirecorder
+            description: |
+              pirecorder is a Python package, built on the picamera and OpenCV libraries, 
+              that provides a flexible solution for the collection of consistent image and video data with the raspberry pi.
+              It was developed to overcome the need for a complete solution to help researchers, especially those with limited coding skills, 
+              to easily set up and configure their raspberry pi to run large numbers of controlled and automated image and video recordings using optimal settings.
+            homepage_url: https://jollejolles.github.io/pirecorder/
+            repo_url: https://github.com/JolleJolles/pirecorder
+            logo: pirecorder.svg
+            academics:
+              - academic:
+                name: Jolle W Jolles
+                profile_url: https://scholar.google.co.uk/citations?user=VCZqbK4AAAAJ
+                citations: 1713
+                hindex: 21
+                i10index: 26
+            locations:
+              - location:
+                country: Spain
+            extra:
+              summary_tags: raspberry-pi, imaging, jolleslab
+          - item:
+            name: FastTrack
+            description: FastTrack is a cross-platform application designed to track multiple objects in video recording.
+            homepage_url: https://www.fasttrack.sh/
+            repo_url: https://github.com/FastTrackOrg/FastTrack
+            logo: fasttrack.svg
+            locations:
+              - location:
+                country: France
+            extra:
+              summary_tags: tracking, behavioral, video
+          - item:
+            name: SLEAP
+            description: |
+              SLEAP is an open source deep-learning based framework for multi-animal pose tracking (Pereira et al., Nature Methods, 2022). 
+              It can be used to track any type or number of animals and includes an advanced labeling/training GUI for active learning and proofreading.
+            homepage_url: https://sleap.ai
+            repo_url: https://github.com/talmolab/sleap
+            logo: sleap.svg
+            academics:
+              - academic:
+                name: Pereira, Talmo D
+                profile_url: https://scholar.google.com/citations?user=tFrElIUAAAAJ
+                citations: 1788
+                hindex: 14
+                i10index: 15
+              - academic:
+                name: Matsliah, Arie
+                profile_url: https://scholar.google.com/citations?user=x9ywWiEAAAAJ
+                citations: 1473
+                hindex: 21
+                i10index: 26
+              - academic:
+                name: David Turner
+                profile_url: https://scholar.google.com/citations?user=ceklpzkAAAAJ
+                citations: 845
+                hindex: 11
+                i10index: 11
+            locations:
+              - location:
+                country: USA
+          - item:
+            name: SimBA
+            description: SimBA (Simple Behavioral Analysis), a pipeline and GUI for developing supervised behavioral classifiers.
+            homepage_url: https://github.com/sgoldenlab/simba
+            repo_url: https://github.com/sgoldenlab/simba
+            logo: simba.svg
+            academics:
+              - academic:
+                name: Nilsson, Simon RO
+                profile_url: https://scholar.google.com/citations?user=dKt60xAAAAAJ
+                citations: 1710
+                hindex: 21
+                i10index: 24
+              - academic:
+                name: Goodwin, Nastacia L.
+                profile_url: https://scholar.google.com/citations?user=FzBJaYQAAAAJ
+                citations: 474
+                hindex: 10
+                i10index: 10
+              - academic:
+                name: Jia Jie Choong
+                profile_url: https://scholar.google.com/citations?user=De4kC2AAAAAJ
+                citations: 217
+                hindex: 3
+                i10index: 2
+            locations:
+              - location:
+                country: USA
+            extra:
+              summary_tags: no-code, ui, uw
+          - item:
+            name: Stytra
+            description: A modular package to control stimulation and track behaviour.
+            homepage_url: http://www.portugueslab.com/stytra/
+            repo_url: https://github.com/portugueslab/stytra
+            logo: stytra.svg
+            academics:
+              - academic:
+                name: Vilim Štih
+                profile_url: https://scholar.google.com/citations?user=No0UofIAAAAJ
+                citations: 307
+                hindex: 6
+                i10index: 5
+              - academic:
+                name: Luigi Petrucco
+                profile_url: https://scholar.google.it/citations?user=FQDeRWQAAAAJ
+                citations: 333
+                hindex: 8
+                i10index: 8
+            locations:
+              - location:
+                country: USA
+            extra:
+              summary_tags: portugues-lab, zebrafish
   - category:
     name: Books
     subcategories:
@@ -3595,6 +5257,18 @@ landscape:
             description: Patricia S. Churchland, Terrence J. Sejnowski, MIT Press
             homepage_url: https://www.goodreads.com/book/show/32078490-the-computational-brain
             logo: computational_brain.svg
+          - item:
+            name: Neuronal Dynamics
+            description: Wulfram Gerstner, Werner M. Kistler, Richard Naud and Liam Paninski
+            homepage_url: https://neuronaldynamics.epfl.ch/
+            logo: book-neural-dynamics.svg
+          - item:
+            name: Principles of Neurobiology
+            description: Liqun Luo
+            homepage_url: https://www.amazon.com/Principles-Neurobiology-Liqun-Luo-dp-0815346050/dp/0815346050
+            logo: principles-of-neurobiology.svg
+            extra:
+              summary_tags: most-used-book
       - subcategory:
         name: Strüngmann Forum Reports
         items:
@@ -3681,7 +5355,7 @@ landscape:
             academics:
               - academic:
                 name: Andrew Huberman
-                profile_url: https://scholar.google.com/citations?user=CoADxCwAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=CoADxCwAAAAJ
                 hindex: 42
                 citations: 11641
             locations:
@@ -3725,7 +5399,7 @@ landscape:
             academics:
               - academic:
                 name: Paul Middlebrooks
-                profile_url: https://scholar.google.com/citations?user=wGUwjdQAAAAJ&hl=en
+                profile_url: https://scholar.google.com/citations?user=wGUwjdQAAAAJ
                 hindex: 6
                 citations: 327
                 i10index: 5

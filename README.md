@@ -1,6 +1,7 @@
 # [Neuroscience Landscape](http://neuroscience-landscape.com/)
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fopen-neuroscience-foundation%2Fneuroscience-landscape&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/open-neuroscience-foundation/neuroscience-landscape/badge)](https://securityscorecards.dev/viewer/?uri=github.com/open-neuroscience-foundation/neuroscience-landscape)
 
 This is community driven landscape of resources on neuroscience.
 The primary goal is to make bird eye view of academic and commercial neuroscience
@@ -10,9 +11,12 @@ with dimensions such as companies, research groups, software, hardware, datasets
 
 ## How to add new entry?
 
-Add your entry to `data.yaml`.
-If any, add details to `crunchbase.json`.
-Build and run locally, confirm that it looks correctly and no errors reported. Then raise a PR.
+- Add your entry to `data.yaml`
+- Add logo in svg to `/logos`
+- (optional) if you added `crunchbase`, then manually add entry to `crunchbase.json`
+- (optional) build and run locally, confirm that it looks correctly and no errors reported
+- (optional) if you added `github_org_url` (`repo_url` does not require this), copy and replace `github_org.json` based on local cache after you build it, you can find your local cache path at log statment during build containing `cache: Cache { cache_dir:`
+- Raise a PR
 
 Helpful links:
 * convert PNG to SVG ([png2svg.com](https://png2svg.com/#google_vignette))

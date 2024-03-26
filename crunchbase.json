@@ -355,5 +355,85 @@
                 "kind": "venture_round"
             }
         ]
+    },
+    "https://www.crunchbase.com/organization/oxford-instruments": {
+        "name": "Oxford Instruments",
+        "generated_at": "2024-03-04T08:24:54.915013600Z",
+        "company_type": "for_profit",
+        "city": "Abingdon",
+        "country": "UK",
+        "ticker": "LSE:OXIG",
+        "num_employees_max": 5000,
+        "num_employees_min": 1001,
+        "funding": 1190000000
+    },
+    "https://www.crunchbase.com/organization/mbf-bioscience": {
+        "name": "MBF Bioscience",
+        "generated_at": "2024-03-04T08:24:54.915013600Z",
+        "company_type": "for_profit",
+        "city": "Williston",
+        "country": "USA",
+        "num_employees_max": 50,
+        "num_employees_min": 11,
+        "funding": 79270000,
+        "funding_rounds": [
+            {
+                "amount": 5470000,
+                "announced_on": "2021-07-02",
+                "kind": "grant"
+            },
+            {
+                "amount": 1000000,
+                "announced_on": "2018-04-01",
+                "kind": "grant"
+            },
+            {
+                "amount": 72800000,
+                "announced_on": "2016-09-22",
+                "kind": "grant"
+            }
+        ]
+    },
+    "https://www.crunchbase.com/organization/opentrons": {
+        "name": "Opentrons",
+        "generated_at": "2024-03-04T08:24:54.915013600Z",
+        "company_type": "for_profit",
+        "city": "New York",
+        "country": "USA",
+        "num_employees_max": 500,
+        "num_employees_min": 201,
+        "funding": 240000000,
+        "funding_rounds": [
+            {
+                "amount": 200000000,
+                "announced_on": "2021-09-23",
+                "kind": "series_c"
+            },
+            {
+                "amount": 20600000,
+                "announced_on": "2020-10-14",
+                "kind": "series_b"
+            },
+            {
+                "amount": 2300000,
+                "announced_on": "2019-11-11",
+                "kind": "venture_round"
+            },
+            {
+                "amount": 10000000,
+                "announced_on": "2018-03-27",
+                "kind": "seed"
+            },
+            {
+                "amount": 7200000,
+                "announced_on": "2016-03-22",
+                "kind": "seed"
+            },
+            {
+                "amount": 25000,
+                "announced_on": "2014-07-14",
+                "kind": "pre-seed"
+            }
+        ]
     }
 }
